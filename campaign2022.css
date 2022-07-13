@@ -93,16 +93,18 @@ writer: css3studio
 }
 
 /* footer */
-footer{
+#s202207144a87dad89bf00{
   border-top:2px solid #000;
 }
-footer .footer-section .inside{
+#s202207144a87dad89bf00 main > .inside{
   max-width: none !important;
   width:auto !important;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding:30px 80px;
 }
-footer .foot-custom .custom-text-info{
+#s202207144a87dad89bf00 .widget._text_wrap{
+  margin:0
+}
+.campaign-footer{
   display:flex;
   justify-content: space-between;
   align-items: end;
@@ -110,28 +112,28 @@ footer .foot-custom .custom-text-info{
   font-size:14px !important;
   color:#000;
 }
-footer .footer-info .logo{
+.campaign-footer .logo{
   display:block;
   margin-bottom:16px;
 }
-footer .footer-info .logo img{
+.campaign-footer .logo img{
   height:40px;
 }
-footer .bank-account{
+.campaign-footer .bank-account{
   display:flex;
   margin:0;
 }
-footer .bank-account dt{
+.campaign-footer .bank-account dt{
   margin-right:46px;
 }
-footer .sns-menu{
+.campaign-footer .sns-menu{
   display:flex;
   list-style:none;
 }
-footer .sns-menu li{
+.campaign-footer .sns-menu li{
   margin-left:8px
 }
-footer .sns-menu li a{
+.campaign-footer .sns-menu li a{
   display:block;
   width:120px;
   padding:0 16px;
@@ -143,31 +145,31 @@ footer .sns-menu li a{
   color:#000;
   position:relative
 }
-footer .sns-menu li a:hover{
+.campaign-footer .sns-menu li a:hover{
   background-color:#FF7051;
 }
-footer .sns-menu li a:after{
+.campaign-footer .sns-menu li a:after{
   position:absolute;
   right:16px;
   content:"\ebe9";
   font-family: xeicon;
   font-size:18px;
 }
-footer .sns-menu li.insta a:after{
+.campaign-footer .sns-menu li.insta a:after{
   content:"\ebe9";
 }
-footer .sns-menu li.fb a:after{
+.campaign-footer .sns-menu li.fb a:after{
   content:"\ebd5";
 }
-footer .sns-menu li.yt a:after{
+.campaign-footer .sns-menu li.yt a:after{
   content:"\ec32";
 }
-footer .btn-goto-top{
+.campaign-footer .btn-goto-top{
   position:absolute;
   top:-64px;
-  right:80px;
+  right:0px;
 }
-footer .btn-goto-top a{
+.campaign-footer .btn-goto-top a{
   display:flex;
   justify-content: center;
   align-items: center;
@@ -176,16 +178,16 @@ footer .btn-goto-top a{
   height:64px;
   border-radius:32px;
 }
-footer .btn-goto-top a:hover{
+.campaign-footer .btn-goto-top a:hover{
   background-color:#FF7051;
 }
-footer .btn-goto-top a:after{
+.campaign-footer .btn-goto-top a:after{
   content:"\e944";
   font-family: xeicon;
   font-size:36px;
   color:#fff;
 }
-footer .btn-goto-top a span{
+.campaign-footer .btn-goto-top a span{
   display:none;
 }
 /* 키 비주얼 */
@@ -517,33 +519,37 @@ footer .btn-goto-top a span{
 @media screen and (max-width:991px) {
 
   /* footer */
-  footer{
-    padding-bottom:20px;
+  
+
+  #s202207144a87dad89bf00 main > .inside{
+    max-width: none !important;
+    width:auto !important;
+    padding:30px 15px;
   }
-  footer .footer-section .inside {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  footer .foot-custom .custom-text-info{
+
+
+  .campaign-footer{
     display:block;
     font-size:14px !important;
   }
-
-  footer .bank-account{
+  div[doz_type="section"]:not(.mobile_section) div[doz_type="text"].widget .campaign-footer .logo img{
+    height:40px !important;
+  }
+  .campaign-footer .bank-account{
     margin:16px 0 24px;
   }
-  footer .bank-account dt{
+  .campaign-footer .bank-account dt{
     margin-right:40px;
   }
-  footer .sns-menu{
+  .campaign-footer .sns-menu{
     display:flex;
     flex-wrap: wrap;
     padding:0
   }
-  footer .sns-menu li{
+  .campaign-footer .sns-menu li{
     margin:0 8px 8px 0;
   }
-  footer .btn-goto-top {
+  .campaign-footer .btn-goto-top {
     right: 15px;
   }
 
@@ -933,49 +939,3 @@ footer .btn-goto-top a span{
 
 
 
-
-
-/* old version */
-
-/******헤더영역******/
-header{
-  border-bottom:2px solid #000
-}
-header .scroll-to-fixed-fixed{
-    border-bottom:2px solid #000 !important;
-}
-header .logo .img_box a img{
-  height:36px !important;
-  width:auto;
-}
-.doz_sys #logo_w202205127429ae8a44c2c.logo .logo_title a{
-  font-family: 'SUIT', sans-serif;
-}
-header ul.navbar-nav li:first-child{
-  display:none !important;
-}
-header ul.navbar-nav li:last-child a{
-  position:relative
-}
-header ul.navbar-nav li:last-child a:after {
-  position:absolute;
-  top:0;
-  right:0;
-  content:"\e980";
-  font-family: xeicon;
-  font-size:20px;
-}
-header #w202205274841bb5af074b .inline_widget a.btn_text span{
-  background:#583DFF !important;
-  color:#fff !important;
-  padding:16px 52px !important;
-  border-radius:28px;
-  font-weight:bold;
-}
-header #w202205274841bb5af074b .inline_widget a.btn_text:hover span{
-  background:#000 !important;
-  color:#fff !important;
-}
-header .scroll-to-fixed-fixed #w202205274841bb5af074b .inline_widget a.btn_text span{
-  color:#fff !important;
-}
