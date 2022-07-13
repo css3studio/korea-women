@@ -44,7 +44,7 @@ $(window).scroll(function(e){
   */
 $(document).ready(function() {
 
-	//2022 캠페인 모금액 카운팅
+	//모금액 카운팅
 	var target =  Number($('ul.collection-data li.target span').text());
 	var collection = Number($('ul.collection-data li.collection span').text());
 	var donator = Number($('ul.collection-data li.donator span').text());
@@ -90,7 +90,7 @@ $(document).ready(function() {
 		init_pc();
 		device_status = "pc";
 	}
-	//2022 캠페인 carousel
+
 	$(".campaign-carousel .slider").lightGallery({
 		thumnail: true,
 	});
@@ -111,7 +111,7 @@ function init_pc(){
 
 //모바일 버젼 초기화
 function init_mobile(){
-	//2022 캠페인 헤더 LNB 메뉴(mobile)
+	//헤더 LNB 메뉴(mobile)
 	$(".btn-mobile-menu").on("click",function(event){
 		if($(".campaign-header01").hasClass('open-mobile-menu')){
 			$(".campaign-header01").removeClass('open-mobile-menu');
@@ -120,7 +120,6 @@ function init_mobile(){
 		}
 		event.preventDefault();
 	});
-	//2022 캠페인 헤더 기부버튼 보이기
 	setInterval(function() {
 		if (didScroll) {
 			hasScrolled();
