@@ -31,7 +31,7 @@ header .logo img{
   width:auto;
 }
 header .inline-section > .inline-col-group:nth-child(1) > .inline-col:nth-child(2){
-  margin-left:95px !important;
+  /* margin-left:95px !important; */
 }
 
 header .btn_9044d4b90ed3d{
@@ -51,7 +51,7 @@ header .mega_dropdown_wrap{
   box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.05);
 }
 header .mega_dropdown_wrap .mega_dropdown{
-  margin-left:60px
+  /* margin-left:60px */
 }
 
 /* footer */
