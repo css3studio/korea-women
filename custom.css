@@ -30,6 +30,22 @@ header .logo img{
   height:40px !important;
   width:auto;
 }
+header .inline-section > .inline-col-group:nth-child(1) > .inline-col:nth-child(2){
+  margin-left:95px !important;
+}
+
+header .btn_9044d4b90ed3d{
+  display:flex;
+  flex-direction: row-reverse;
+  gap:10px;
+  align-items: center;
+}
+.scroll-to-fixed-fixed #w20220714dcdfb5ebb49cf .login_btn > div > .inline-blocked:nth-of-type(3) a span{
+  color:#999 !important;
+}
+#w20220714b5bd9746d6134 .search_btn i{
+  font-weight:500
+}
 
 /* footer */
 footer{
