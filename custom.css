@@ -119,6 +119,13 @@ footer .foot-custom .custom-text-info{
   border-bottom:2px solid;
   padding-bottom:8px;
 }
+.slider-main .slider-item .text-area a.more i{
+  margin-left:16px;
+  font-size:18px;
+}
+.slider-main .slider-item .text-area a.more:hover{
+  color:#000
+}
 .slider-main .controls{
   position: absolute;
   bottom:0px;
@@ -132,12 +139,34 @@ footer .foot-custom .custom-text-info{
   margin:0 20px;
 }
 
-.slider-main .controls .indicator ul li{
-
+.slider-main .controls .indicator ul{
+  display:flex !important;
 }
-
-.slider-main .controls .indicator ul li.slick-active{
-
+.slider-main .controls .indicator ul li{
+  width:16px;
+  height:16px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:0 3px;
+}
+.slider-main .controls .indicator ul li button{
+  display:block;
+  width:10px;
+  height:10px;
+  border:1px solid #D03B83;
+  border-radius:5px;
+  overflow:hidden;
+  text-indent:-9999px;
+  background-color: #fff;
+  transition: width 0.3s, height 0.3s, border-radius 0.3s;
+}
+.slider-main .controls .indicator ul li.slick-active button{
+  width:16px;
+  height:16px;
+  border:1px solid #D03B83;
+  border-radius:8px;
+  background-color: #D03B83;
 }
 
 
