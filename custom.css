@@ -7,7 +7,13 @@ writer: css3studio
 * {
   word-break:keep-all;
 }
-
+ul{
+  padding:0;
+  margin:0;
+}
+dl{
+  margin-bottom:0
+}
 /*
 .btn-primary, .btn-default{
   font-size:16px;
@@ -67,6 +73,72 @@ footer .footer-section .inside{
 footer .foot-custom .custom-text-info{
 
 }
+
+/** main **/
+#s20220714b8cb7ef0c1fb5 main > .inside{
+  max-width:1440px !important;
+}
+
+.slider-main{
+  position:relative;
+  padding-bottom:64px;
+}
+.slider-main .slider-item{
+  display:flex;
+}
+.slider-main .slider-item .thumb-area{
+  flex-basis: 50%;
+}
+.slider-main .slider-item .thumb-area img{
+  width:100%;
+  display:block;
+}
+.slider-main .slider-item .text-area{
+  flex-basis: 50%;
+  padding-left:74px;
+  padding-top:72px;
+}
+.slider-main .slider-item .text-area h2{
+  font-size:48px;
+  font-weight:900;
+  line-height:1.3333;
+  margin:0 0 24px;
+  color:#D03B83;
+}
+.slider-main .slider-item .text-area  p{
+  max-width:476px;
+  color:#666;
+  line-height:1.5;
+  margin-bottom:48px;
+}
+.slider-main .slider-item .text-area a.more{
+  color:#04A000;
+  font-size:14px;
+  font-weight:700;
+  border-bottom:2px solid;
+  padding-bottom:8px;
+}
+.slider-main .controls{
+  position: absolute;
+  bottom:0px;
+  left:0;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.slider-main .controls .indicator{
+  margin:0 20px;
+}
+
+.slider-main .controls .indicator ul li{
+
+}
+
+.slider-main .controls .indicator ul li.slick-active{
+
+}
+
 
 /**** mobile ****/
 
