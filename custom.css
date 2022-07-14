@@ -46,6 +46,13 @@ header .btn_9044d4b90ed3d{
 #w20220714b5bd9746d6134 .search_btn i{
   font-weight:500
 }
+header .mega_dropdown_wrap{
+  border-top:1px solid #DE649F;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.05);
+}
+header .mega_dropdown_wrap .mega_dropdown{
+  margin-left:60px
+}
 
 /* footer */
 footer{
