@@ -4,7 +4,11 @@ writer: css3studio
 */
 
 @media screen and (max-width:991px) {
-
+  
+  header .logo img{
+    height:32px !important;
+    width:auto;
+  }
 
 }
 
