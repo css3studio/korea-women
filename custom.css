@@ -426,13 +426,59 @@ footer{
   color:#666;
 }
 
+.headings-main a.more{
+  display:inline-flex;
+  align-items:center;
+  font-size: 14px;
+  color: #04A000;
+  margin-top:24px;
+  border-bottom:2px solid;
+}
+.headings-main a.more:after{
+  content:"\e90b";
+  font-family:xeicon;
+  font-size:18px;
+  margin-left:16px;
+}
+.headings-main a.more:hover{
+  color:#000;
+}
+/*W스토리*/
+#s2022071582b8b506246e2{
+  padding:96px 0;
+}
+#w202207155927692832b65 .post_row{
+  flex-wrap: wrap;
+}
+#w202207155927692832b65 .type_grid .list-style-card .ma-item{
+  padding:0 !important;
+}
+#w202207155927692832b65 .type_grid .list-style-card{
+  width:268px !important;
+}
+
+.card .card_wrapper {
+  padding-top: calc(100% / 268 * 160); /* 16:9 적용 */
+  height:0 !important;
+}
+/*딸들에게 희망을*/
+#s202207129b592cf63144b{
+  
+}
 
 
-
-
-
-
-
-
-
-
+#video_w202207159d9dd7600d4e0{
+  max-width:768px;
+  margin:0 auto;
+  height: 0;
+  overflow: hidden;
+  padding-top: calc(100% / 768 * 432);
+  position: relative;
+}
+#video_w202207159d9dd7600d4e0 > div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
