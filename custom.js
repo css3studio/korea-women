@@ -44,6 +44,11 @@ $(window).scroll(function(e){
   */
 $(document).ready(function() {
 
+
+	$('footer #family_site').change(function(){
+		location.href = $(this).val();
+	});
+
 	//2022 캠페인 모금액 카운팅
 	var target =  Number($('ul.collection-data li.target span').text());
 	var collection = Number($('ul.collection-data li.collection span').text());
