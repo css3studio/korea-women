@@ -44,7 +44,7 @@ $(window).scroll(function(e){
   */
 $(document).ready(function() {
 
-
+	//푸터 패밀리 사이트
 	$('footer #family_site').change(function(){
 		location.href = $(this).val();
 	});
