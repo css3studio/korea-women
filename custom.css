@@ -351,6 +351,7 @@ footer{
   white-space:pre-line;
   text-align:left;
   cursor:pointer;
+  transition: color 0s;
 }
 #w2022071528a92574ee808 .button_wrap .slick-slide a span{
   margin-right:0 !important;
