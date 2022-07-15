@@ -424,6 +424,7 @@ footer{
 .headings-main p{
   font-size: 14px;
   color:#666;
+  max-width:190px;
 }
 
 .headings-main a.more{
@@ -463,13 +464,24 @@ footer{
 }
 /*딸들에게 희망을*/
 #s202207129b592cf63144b{
-  
+  padding-bottom:96px;
+}
+#s202207129b592cf63144b:before{
+  content:"";
+  display:block;
+  height:600px;
+  width:100vw;
+  background: #527605;
+  position:absolute;
+  bottom:0;
+  left:0;
 }
 
-
-#video_w202207159d9dd7600d4e0{
+#w202207159d9dd7600d4e0{
   max-width:768px;
   margin:0 auto;
+}
+#video_w202207159d9dd7600d4e0{
   height: 0;
   overflow: hidden;
   padding-top: calc(100% / 768 * 432);
@@ -482,3 +494,101 @@ footer{
   width: 100%;
   height: 100%;
 }
+
+.scription-main{
+  max-width:768px;
+  margin:0 auto;
+  padding-left:80px;
+  color:#fff;
+}
+.scription-main h2{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.3333;
+  margin-bottom: 24px;
+}
+.scription-main p{
+  font-size: 12px;
+  margin-bottom: 44px !important;
+  padding-left:85px;
+}
+
+.scription-main a.more{
+  display:inline-flex;
+  align-items:center;
+  font-size: 14px;
+  color: #FFF100;
+  margin-top:24px;
+  border-bottom:2px solid;
+}
+.scription-main a.more:after{
+  content:"\e90b";
+  font-family:xeicon;
+  font-size:18px;
+  margin-left:16px;
+}
+.scription-main a.more:hover{
+  color: #000;
+}
+
+/*기부안내*/
+#s202207158ac59e9ee1c77{
+  padding:96px 0;
+}
+.donate-kind{
+  display:flex;
+  justify-content: space-between;
+}
+.donate-kind dl{
+  display:flex;
+  flex-direction: column-reverse;
+  text-align:center;
+}
+.donate-kind dl dt{
+  font-size:14px;
+  color:#333;
+}
+.donate-kind dl dd{
+  margin-bottom:8px;
+}.donate-kind dl dd img{
+  width:88px;
+  margin-bottom:8px;
+}
+/*headline*/
+#s202207154f925629263e6{
+  padding:96px 0;
+}
+.headings-main2{
+  display:flex;
+  justify-content: space-between;
+}
+.headings-main2 h2{
+  font-weight:700;
+  font-size:32px;
+  color:#111;
+  margin:0 0 8px;
+}
+.headings-main2 .more{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:40px;
+  height:40px;
+  border-radius:20px;
+  border: 1px solid #E7A3C4;
+  color:#D03B83;
+  cursor:pointer;
+}
+.headings-main2 .more span{
+  display:none
+}
+.headings-main2 .more:after{
+  content:"\e913";
+  font-family: xeicon;
+  font-size:24px;
+}
+.headings-main2 .more:hover{
+  color:#000;
+  border-color:#000;
+}
+
