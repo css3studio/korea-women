@@ -553,6 +553,13 @@ footer .custom-text{
   word-wrap:normal;
   overflow:hidden        
 }
+.card a:hover .card-body .title{
+  text-decoration: underline;
+}
+.card a:hover .card-body .title span em{
+  text-decoration:none !important;
+}
+
 .card .card-summary{
   position:absolute;
   top:188px;
