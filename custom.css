@@ -465,6 +465,13 @@ footer .custom-text{
   padding-top: calc(100% / 268 * 160); /* 16:9 적용 */
   height:0 !important;
 }
+
+#newest_w202207155927692832b65 .post_row .dummy_col{
+  display:none;
+}
+
+
+
 /*딸들에게 희망을*/
 #s202207129b592cf63144b{
   padding-bottom:96px;
