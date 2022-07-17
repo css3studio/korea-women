@@ -23,6 +23,16 @@ $(window).resize(function() {
 		device_status = "pc";
 	}
 });
+$(window).load(function() {
+	$('#newest_w202207155927692832b65 .post_row').slick({
+		dots:false,
+		arrows:true,
+		infinite: true,
+		slidesToShow: 3,
+		speed:2000
+	});
+
+});
 
 /*
 $(window).scroll(function(e){
@@ -47,14 +57,6 @@ $(document).ready(function() {
 	//푸터 패밀리 사이트
 	$('footer #family_site').change(function(){
 		location.href = $(this).val();
-	});
-
-	$('#newest_w202207155927692832b65 .post_row').slick({
-		dots:false,
-		arrows:true,
-		infinite: true,
-		slidesToShow: 3,
-		speed:2000
 	});
 
 	//2022 캠페인 모금액 카운팅
