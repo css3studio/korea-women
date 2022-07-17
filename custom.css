@@ -684,6 +684,9 @@ footer{
   text-overflow:ellipsis;
   line-height:1.55555;
 }
+#s202207154f925629263e6 .blog-body .text-block > strong > a:hover:last-of-type{
+  text-decoration: underline;
+}
 #s202207154f925629263e6 .blog-head{
   position:absolute;
   bottom:88px;
@@ -706,6 +709,82 @@ footer{
 #s202207154f925629263e6 .blog-head span a{
   color:#999 !important;
 }
+
+/*newsletter*/
+#s202207151ce11d103cbab{
+  padding:64px 0;
+}
+#s202207151ce11d103cbab .headings-main h2{
+  color:#D03B83;
+}
+#s202207151ce11d103cbab .headings-main p{
+  max-width:273px;
+}
+#s202207151ce11d103cbab .form-widget .deadline-opacity{
+  display:flex;
+  justify-content:space-around;
+  align-items:end
+}
+#s202207151ce11d103cbab .form-widget form{
+  display:flex;
+  flex-grow: 1;
+}
+#s202207151ce11d103cbab .form-widget form > .form-group:nth-of-type(2){
+  width:35%;
+  margin-right:16px;
+}
+#s202207151ce11d103cbab .form-widget form > .form-group:nth-of-type(3){
+  width:65%;
+  margin-right:16px;
+}
+#s202207151ce11d103cbab .form-widget .text-center{
+  width :168px;
+}
+#s202207151ce11d103cbab .form-widget .text-center .btn{
+  width:100%;
+  background-color:#B50F5F;
+  font-size:16px;
+  padding:8px 0;
+}
+#s202207151ce11d103cbab .form-widget form .control-label{
+  font-size:14px !important;
+  color:#666;
+}
+#s202207151ce11d103cbab .form-widget form .control-label i{
+  display:none;
+}
+#s202207151ce11d103cbab .form-widget form .form-group{
+  margin-bottom:0
+}
+#s202207151ce11d103cbab .form-widget form .form-group input{
+  height:40px;
+  background: #FFFFFF;
+  border: 1px solid #DD8E32;
+  border-radius: 8px;
+}
+#s202207151ce11d103cbab .form-widget .form-group.privacy{
+  position:absolute;
+  bottom:-46px;
+}
+#s202207151ce11d103cbab .form-widget .form-group.privacy .control-label{
+  display:none;
+}
+#s202207151ce11d103cbab .form-widget .form-group.privacy .form-control{
+  display:none;
+}
+#s202207151ce11d103cbab .form-widget .form-group.privacy .checkbox label{
+  font-size:14px;
+  color:#666; 
+}
+#s202207151ce11d103cbab .checkbox-styled:not(ie8) input ~ span::before{
+  border-color:#DD8E32;
+  color:#000;
+}
+#s202207151ce11d103cbab .checkbox-styled:not(ie8) input:checked ~ span::before{
+  background-color:#DD8E32;
+}
+
+
 
 
 
