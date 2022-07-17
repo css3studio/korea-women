@@ -137,6 +137,7 @@ function init_pc(){
 		dots: false,
 		arrows: true,
 		slidesToShow: 4,
+		infinite: false,
 		slidesToScroll: 1,
         speed: 600,
 	});
