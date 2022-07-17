@@ -24,6 +24,9 @@ $(window).resize(function() {
 	}
 });
 $(window).load(function() {
+	$('#newest_w202207155927692832b65 .post_row').on('init', function(){
+		$('#newest_w202207155927692832b65 .post_row .dummy_col').remove();
+	});
 	$('#newest_w202207155927692832b65 .post_row').slick({
 		dots:false,
 		arrows:true,
