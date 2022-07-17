@@ -68,6 +68,9 @@ header ._mega_dropdown_container_w2022051236a317dca73dd{
 footer{
   border-top:1px solid #E5E5E5;
 }
+footer .custom-text{
+  margin:0 !important;
+}
 .footer-group{
   position:relative;
 }
