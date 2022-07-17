@@ -32,7 +32,7 @@ $(window).load(function() {
 		arrows:true,
 		infinite: true,
 		slidesToShow: 3,
-		speed:2000
+		slidesToScroll: 1
 	});
 
 });
