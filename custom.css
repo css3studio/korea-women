@@ -784,7 +784,17 @@ footer{
   background-color:#DD8E32;
 }
 
-
+/*partners*/
+#s2022071594ccff9a3310b{
+  padding:64px 0
+}
+.slider-logo .slick-slide{
+  width:168px !important;
+  height:48px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
