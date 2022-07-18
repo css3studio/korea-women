@@ -374,12 +374,56 @@ writer: css3studio
     padding:48px 0
   }
   .slider-logo .slick-slide{
-    width:auto !important;
+    width:calc(50vw - 36px) !important;
+    margin:0 16px;
     height:auto !important;
     display:block;
-
+    text-align: center;
+  }
+  .slider-logo .slick-slide > div{
+    padding:4px 0;
+    height:48px !important;
+  }
+  .slider-logo .slick-slide img{
+    height:auto;
+    width:auto !important;
+    max-height:100%;
   }
 
+  .slider-logo .slick-dots{
+    margin-top:16px;
+    display:flex !important;
+    justify-content: center;
+  }
+  .slider-logo .slick-dots li{
+    width:16px;
+    height:16px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0 3px;
+  }
+  .slider-logo .slick-dots li button{
+    display:block;
+    width:10px;
+    height:10px;
+    border:1px solid #D03B83;
+    border-radius:5px;
+    overflow:hidden;
+    text-indent:-9999px;
+    background-color: #fff;
+    transition: width 0.3s, height 0.3s, border-radius 0.3s;
+    padding:0;
+  }
+  .slider-logo .slick-dots li.slick-active button{
+    width:16px;
+    height:16px;
+    border:1px solid #D03B83;
+    border-radius:8px;
+    background-color: #D03B83;
+  }  
+  
+  
   
 }
 

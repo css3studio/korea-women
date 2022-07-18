@@ -199,7 +199,7 @@ footer .custom-text{
   font-family:xeicon;
   transform:rotate(-45deg)
 }
-.footer-group .link-info a:hover:after{
+.footer-group .link-info a:hover:after{ 
   border: 1px solid #D03B83;
   color:#D03B83
 }
@@ -311,6 +311,7 @@ footer .custom-text{
   text-indent:-9999px;
   background-color: #fff;
   transition: width 0.3s, height 0.3s, border-radius 0.3s;
+  padding:0;
 }
 .slider-main .controls .indicator ul li.slick-active button{
   width:16px;
