@@ -369,6 +369,16 @@ writer: css3studio
     position:static;
   }
   
+  /*partners*/
+  #s2022071594ccff9a3310b{
+    padding:64px 0
+  }
+  .slider-logo .slick-slide{
+    width:auto !important;
+    height:auto !important;
+    display:block;
+
+  }
 
   
 }
