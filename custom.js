@@ -136,7 +136,8 @@ $(document).ready(function() {
 				{
 				  breakpoint: 767,
 				  settings: {
-					slidesToScroll: 1
+					slidesToScroll: 1,
+					infinite: true,
 				  }
 				}
 			  ]
