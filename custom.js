@@ -11,12 +11,12 @@ var delta = 5;
 
 $(window).resize(function() {
 	var dw = viewport().width;
-	if(dw <= 768 && device_status == "pc"){	//PC에서 모바일로 변경시
+	if(dw <= 991 && device_status == "pc"){	//PC에서 모바일로 변경시
 		$("body").removeClass('pc');
 		$("body").addClass('mobile');
 		init_mobile();
 		device_status = "mobile";
-	}else if(dw > 768 && device_status == "mobile"){	//모바일에서 PC로 변경시
+	}else if(dw > 991 && device_status == "mobile"){	//모바일에서 PC로 변경시
 		$("body").removeClass('mobile');
 		$("body").addClass('pc');
 		init_pc();
@@ -102,7 +102,7 @@ $(document).ready(function() {
 	});
 
     var dw = viewport().width;
-	if(dw <= 768){	//모바일
+	if(dw <= 991){	//모바일
 		$("body").removeClass('pc');
 		$("body").addClass('mobile');
 		init_mobile();
