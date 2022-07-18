@@ -128,6 +128,7 @@ $(document).ready(function() {
 			responsive: [
 				{
 				  breakpoint: 991,
+				  settings: {
 
 					infinite: true,
 				  }
