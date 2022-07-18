@@ -163,6 +163,7 @@ function init_mobile(){
 
 	// 메인 W스토리
 	setTimeout(() => {
+		/*
 		$('#w202207155927692832b65 .list-style-gallery').on('init', function(event, slick, direction){
 			$('#w202207155927692832b65 .list-style-gallery').css('visibility','visible');
 		});
@@ -175,6 +176,7 @@ function init_mobile(){
 			slidesToShow: 3,
 			slidesToScroll: 1
 		});
+		*/
 	}, 1000);
 
 
