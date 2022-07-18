@@ -159,7 +159,6 @@ function init_pc(){
 //모바일 버젼 초기화
 function init_mobile(){
 	$('#w2022071528a92574ee808 .button_wrap').slick("unslick");
-	$('#newest_w202207155927692832b65 .post_row').slick("unslick");
 
 
 	// 메인 W스토리
