@@ -122,25 +122,9 @@ $(document).ready(function() {
 		$('#newest_w202207155927692832b65 .post_row').slick({
 			dots:false,
 			arrows:true,
-			infinite: false,
+			infinite: true,
 			variableWidth: true,
 			slidesToShow: 1,
-			responsive: [
-				{
-				  breakpoint: 991,
-				  settings: {
-
-					infinite: true,
-				  }
-				},
-				{
-				  breakpoint: 767,
-				  settings: {
-
-					infinite: true,
-				  }
-				}
-			  ]
 		});
 	}, 1000);
 
