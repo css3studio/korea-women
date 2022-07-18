@@ -475,6 +475,7 @@ footer .custom-text{
 }
 #w202207155927692832b65 .post_row{
   flex-wrap: nowrap;
+  visibility: hidden ;
 }
 #w202207155927692832b65 .post_row > button{
   position:absolute;

@@ -28,7 +28,7 @@ $(window).load(function() {
 	$('#newest_w202207155927692832b65 .post_row').on('init', function(){
 		$('#newest_w202207155927692832b65 .post_row .dummy_col').remove();
 	});
-	*/
+
 	$('#newest_w202207155927692832b65 .post_row').on('init', function(event, slick, direction){
 		$('#newest_w202207155927692832b65 .post_row').css('visibility','visible');
 	  });
@@ -40,7 +40,7 @@ $(window).load(function() {
 		slidesToShow: 3,
 		slidesToScroll: 1
 	});
-
+	*/
 });
 
 /*
@@ -62,8 +62,20 @@ $(window).scroll(function(e){
   });
   */
 $(document).ready(function() {
-	// W스토리 감추기
-	$('#newest_w202207155927692832b65 .post_row').css('visibility','hidden');
+	// 메인 W스토리
+	setTimeout(() => {
+		$('#newest_w202207155927692832b65 .post_row').on('init', function(event, slick, direction){
+			$('#newest_w202207155927692832b65 .post_row').css('visibility','visible');
+		  });
+		$('#newest_w202207155927692832b65 .post_row').slick({
+			dots:false,
+			arrows:true,
+			infinite: false,
+			variableWidth: true,
+			slidesToShow: 3,
+			slidesToScroll: 1
+		});
+	}, 1000);
 	//푸터 패밀리 사이트
 	$('footer #family_site').change(function(){
 		location.href = $(this).val();
