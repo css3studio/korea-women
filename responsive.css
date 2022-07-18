@@ -381,7 +381,7 @@ writer: css3studio
     text-align: center;
   }
   .slider-logo .slick-slide > div{
-    padding:4px 0;
+    margin:8px 0 !important;;
     height:48px !important;
   }
   .slider-logo .slick-slide img{
