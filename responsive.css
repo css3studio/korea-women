@@ -157,6 +157,7 @@ writer: css3studio
   }
   .headings-main p{
     max-width:none;
+    line-height:1.7;
   }
   .headings-main a.more{
     position: absolute;
@@ -325,6 +326,48 @@ writer: css3studio
     bottom:80px;
   }
 
+
+  /*newsletter*/
+  #s202207151ce11d103cbab{
+    padding:48px 0;
+  }
+
+  #s202207151ce11d103cbab .headings-main p{
+    max-width:283px;
+  }
+  #s202207151ce11d103cbab .form-widget .deadline-opacity{
+    display:block;
+  }
+  #s202207151ce11d103cbab .form-widget form{
+    display:block;
+  }
+  #s202207151ce11d103cbab .form-widget form > .form-group{
+    position:relative;
+    margin-bottom:16px;
+  }
+  #s202207151ce11d103cbab .form-widget form > .form-group input{
+    text-indent:90px;
+  }
+  #s202207151ce11d103cbab .form-widget form > .form-group > .control-label{
+    position:absolute;
+    left:16px;
+    top:10px;
+  }
+  #s202207151ce11d103cbab .form-widget form > .form-group:nth-of-type(2){
+    width:100%;
+    margin-right:0px;
+  }
+  #s202207151ce11d103cbab .form-widget form > .form-group:nth-of-type(3){
+    width:100%;
+    margin-right:0px;
+  }
+  #s202207151ce11d103cbab .form-widget .text-center{
+    width :100%;
+  }
+
+  #s202207151ce11d103cbab .form-widget .form-group.privacy{
+    position:static;
+  }
   
 
   
