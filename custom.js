@@ -124,7 +124,7 @@ $(document).ready(function() {
 			arrows:true,
 			infinite: false,
 			variableWidth: true,
-
+			slidesToShow: 1,
 			responsive: [
 				{
 				  breakpoint: 991,
