@@ -148,12 +148,94 @@ writer: css3studio
     height:56px;
     font-size:16px;
   }
-
+  .headings-main{
+    position:relative;
+  }
   .headings-main h2{
     font-size:24px;
     margin:0 0 4px;
   }
+  .headings-main a.more{
+    position: absolute;
+    top:5px;
+    left:130px;
+    margin-top:0;
+    padding-bottom:0;
+    border-bottom:none;
+    font-weight:700;
+  }
+  .headings-main a.more:after{
+    content:none;
+  }
 
+
+  /*W스토리*/
+  #s2022071582b8b506246e2{
+    padding:48px 0;
+  }
+  #w202207155927692832b65 .post_row{
+    visibility: visible ;
+  }
+
+  #w202207155927692832b65 .type_grid .list-style-card{
+    margin:0 16px;
+  }
+  #w202207155927692832b65 .slick-list{
+    margin:0 -8px;
+  }
+
+
+  #w202207155927692832b65 .slick-prev{
+    position: absolute;
+    top:0px;
+    right:76px;
+    border:none;
+    background: transparent;
+    text-indent: -9999px;
+    height:28px;
+    padding:0;
+    display:flex;
+    justify-content: :center;
+    align-items: center;
+  }
+  #w202207155927692832b65 .slick-prev:after{
+    content:"\e908";
+    display:block;
+    font-family:xeicon;
+    text-indent: 0 !important;
+    color:#B50F5F;
+    font-size:20px;
+  }
+  #newest_w202207155927692832b65 .post_row  .slick-next{
+    position: absolute;
+    top:-50px;
+    right:32px;
+    border:none;
+    background: transparent;
+    text-indent: -9999px;
+    height:28px;
+    padding:0;
+    display:flex;
+    justify-content: :center;
+    align-items: center;
+  }
+  #newest_w202207155927692832b65 .post_row  .slick-next:after{
+    content:"\e90b";
+    display:block;
+    font-family:xeicon;
+    text-indent: 0 !important;
+    color:#B50F5F;
+    font-size:20px;
+  }
+  #newest_w202207155927692832b65 .post_row .slick-arrow.slick-disabled:after{
+    color:#999
+  }
+
+  .card .card-body .title{
+    font-size:16px !important;;
+    height:80px;
+    -webkit-line-clamp:2;
+  }
 
 
   
