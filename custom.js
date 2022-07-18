@@ -125,10 +125,12 @@ $(document).ready(function() {
 			infinite: false,
 			variableWidth: true,
 			slidesToScroll: 3,
+			slidesToShow: 3,
 			responsive: [
 				{
 				  breakpoint: 991,
 				  settings: {
+					slidesToShow: 3,
 					slidesToScroll: 2,
 					infinite: true,
 				  }
@@ -136,6 +138,7 @@ $(document).ready(function() {
 				{
 				  breakpoint: 767,
 				  settings: {
+					slidesToShow: 2,
 					slidesToScroll: 1,
 					infinite: true,
 				  }
