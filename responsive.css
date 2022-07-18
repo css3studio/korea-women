@@ -181,54 +181,18 @@ writer: css3studio
     margin:0 16px;
   }
   #w202207155927692832b65 .slick-list{
-    margin:0 -8px;
+    margin:0 8px;
+    overflow:visible;
   }
 
 
-  #w202207155927692832b65 .slick-prev{
-    position: absolute;
-    top:0px;
-    right:76px;
-    border:none;
-    background: transparent;
-    text-indent: -9999px;
-    height:28px;
-    padding:0;
-    display:flex;
-    justify-content: :center;
-    align-items: center;
-  }
-  #w202207155927692832b65 .slick-prev:after{
-    content:"\e908";
-    display:block;
-    font-family:xeicon;
-    text-indent: 0 !important;
-    color:#B50F5F;
-    font-size:20px;
+  #newest_w202207155927692832b65 .post_row  .slick-prev{
+    top:-80px;
+    right:56px;
   }
   #newest_w202207155927692832b65 .post_row  .slick-next{
-    position: absolute;
-    top:-50px;
-    right:32px;
-    border:none;
-    background: transparent;
-    text-indent: -9999px;
-    height:28px;
-    padding:0;
-    display:flex;
-    justify-content: :center;
-    align-items: center;
-  }
-  #newest_w202207155927692832b65 .post_row  .slick-next:after{
-    content:"\e90b";
-    display:block;
-    font-family:xeicon;
-    text-indent: 0 !important;
-    color:#B50F5F;
-    font-size:20px;
-  }
-  #newest_w202207155927692832b65 .post_row .slick-arrow.slick-disabled:after{
-    color:#999
+    top:-80px;
+    right:16px;
   }
 
   .card .card-body .title{
