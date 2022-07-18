@@ -163,20 +163,19 @@ function init_mobile(){
 
 	// 메인 W스토리
 	setTimeout(() => {
-		/*
-		$('#w202207155927692832b65 .list-style-gallery').on('init', function(event, slick, direction){
-			$('#w202207155927692832b65 .list-style-gallery').css('visibility','visible');
+
+		$('#newest_w202207155927692832b65 .post_row').on('init', function(event, slick, direction){
+			$('#newest_w202207155927692832b65 .post_row').css('visibility','visible');
 		});
-		$('#w202207155927692832b65 .list-style-gallery').slick({
+		$('#newest_w202207155927692832b65 .post_row').slick({
 			dots:false,
 			arrows:true,
-			slide:'div.list-style-card',
 			infinite: false,
 			variableWidth: true,
 			slidesToShow: 3,
 			slidesToScroll: 1
 		});
-		*/
+
 	}, 1000);
 
 
