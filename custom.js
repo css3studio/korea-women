@@ -124,7 +124,8 @@ $(document).ready(function() {
 			arrows:true,
 			infinite: true,
 			variableWidth: true,
-			slidesToShow: 3
+			slidesToShow: 3,
+			touchThreshold:100
 		});
 	}, 1000);
 
