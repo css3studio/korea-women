@@ -155,6 +155,9 @@ writer: css3studio
     font-size:24px;
     margin:0 0 4px;
   }
+  .headings-main p{
+    max-width:none;
+  }
   .headings-main a.more{
     position: absolute;
     top:5px;
@@ -201,6 +204,128 @@ writer: css3studio
     -webkit-line-clamp:2;
   }
 
+
+
+  /*딸들에게 희망을*/
+  #s202207129b592cf63144b{
+    padding-bottom:48px;
+  }
+  #s202207129b592cf63144b:before{
+    height:600px;
+    width:100vw;
+    background: #527605;
+    position:absolute;
+    bottom:initial;
+    top:calc(100vw / 3.5);
+    left:0;
+  }
+
+  #w202207159d9dd7600d4e0{
+    max-width:100%;
+    margin:0;
+  }
+
+  .scription-main{
+    max-width:auto;
+    margin:0;
+    padding-left:0px;
+  }
+  .scription-main h2{
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+  .scription-main p{
+    font-size: 13px;
+    margin-bottom: 24px !important;
+    padding-left:50px;
+  }
+  .scription-main p br{
+    display:none;
+  }
+  .scription-main a.more{
+    margin-left:50px;
+    margin-top:0px;
+  }
+
+  /*기부안내*/
+  #s202207158ac59e9ee1c77{
+    padding:48px 0 16px;
+  }
+  .donate-kind{
+    display:flex;
+    justify-content:initial;
+    flex-wrap: wrap;
+    margin:0 -16px;
+  }
+  .donate-kind dl{
+    margin:0 0 32px;
+    width:33.3333%;
+  }
+
+  .donate-kind dl dd{
+    margin-bottom:8px;
+  }
+  .donate-kind dl dd img{
+    width:64px;
+    margin-bottom:8px;
+  }
+
+  /*headline*/
+  #s202207154f925629263e6{
+    padding:48px 0;
+  }
+  .headings-main2{
+    align-items:center;
+    margin-bottom:24px;
+  }
+  .headings-main2 h2{
+    font-size:24px;
+  }
+  #s202207154f925629263e6 .list-style.row_01 {
+    padding:0 15px;
+    margin-bottom:50px;
+  }
+  #s202207154f925629263e6 .list-style.row_01 >.m-padding-on{
+    padding:24px 0 !important;
+  }
+  #s202207154f925629263e6 .list-style.row_01 .title > a > span{
+    height:48px;
+    font-size:16px;
+  }
+  #s202207154f925629263e6 .list-style.row_01 .title > a > em{
+    font-size:14px;
+  }
+  #s202207154f925629263e6 .list-style.row_01 .title .board-block{
+    position:absolute;
+    top:-4px;
+  }
+
+  #w20220715518a4fa78eca7 .row_03.type_row >.m-padding-on {
+    padding:0 60px !important;
+  }
+  #s202207154f925629263e6 .blog-body{
+    margin:0 0 24px !important;
+  }
+  #s202207154f925629263e6 .blog-body .img{
+    height:auto;
+  }
+  #s202207154f925629263e6 .blog-body .img img{
+    height:auto;
+    width:100%;
+  }
+  #s202207154f925629263e6 .blog-body .text-block > strong {
+    font-size:16px;
+  }
+
+  #s202207154f925629263e6 .blog-body .text-block > strong > a:last-of-type{
+    height:48px;
+  }
+
+  #s202207154f925629263e6 .blog-head{
+    bottom:80px;
+  }
+
+  
 
   
 }
