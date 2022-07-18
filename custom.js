@@ -143,7 +143,7 @@ function init_pc(){
 	setTimeout(() => {
 		$('#newest_w202207155927692832b65 .post_row').on('init', function(event, slick, direction){
 			$('#newest_w202207155927692832b65 .post_row').css('visibility','visible');
-			});
+		});
 		$('#newest_w202207155927692832b65 .post_row').slick({
 			dots:false,
 			arrows:true,
@@ -163,9 +163,12 @@ function init_mobile(){
 
 	// 메인 W스토리
 	setTimeout(() => {
+		$('#w202207155927692832b65 .list-style-gallery').on('init', function(event, slick, direction){
+			$('#w202207155927692832b65 .list-style-gallery').css('visibility','visible');
+		});
 		$('#w202207155927692832b65 .list-style-gallery').slick({
 			dots:false,
-			arrows:true,
+			//arrows:true,
 			infinite: false,
 			variableWidth: true,
 			slidesToShow: 3,
