@@ -439,6 +439,9 @@ footer .custom-text{
   color:#B50F5F;
   font-size:20px;
 }
+#w2022071528a92574ee808 .button_wrap .slick-arrow.slick-disabled:after{
+  color:#999
+}
 
 .headings-main h2{
   font-weight:700;
@@ -544,6 +547,9 @@ footer .custom-text{
   text-indent: 0 !important;
   color:#B50F5F;
   font-size:20px;
+}
+#newest_w202207155927692832b65 .post_row .slick-arrow.slick-disabled:after{
+  color:#999
 }
 
 .card .card-body .title{
