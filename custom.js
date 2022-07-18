@@ -168,7 +168,8 @@ function init_mobile(){
 		});
 		$('#w202207155927692832b65 .list-style-gallery').slick({
 			dots:false,
-			//arrows:true,
+			arrows:true,
+			slide:'div.list-style-card',
 			infinite: false,
 			variableWidth: true,
 			slidesToShow: 3,
