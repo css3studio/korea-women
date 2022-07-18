@@ -124,8 +124,22 @@ $(document).ready(function() {
 			arrows:true,
 			infinite: false,
 			variableWidth: true,
-			slidesToShow: 3,
-			slidesToScroll: 1
+			slidesToScroll: 3,
+			responsive: [
+				{
+				  breakpoint: 991,
+				  settings: {
+					slidesToScroll: 2,
+					infinite: true,
+				  }
+				},
+				{
+				  breakpoint: 767,
+				  settings: {
+					slidesToScroll: 1
+				  }
+				}
+			  ]
 		});
 	}, 1000);
 
