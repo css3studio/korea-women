@@ -164,7 +164,7 @@ function init_mobile(){
 
 	// 메인 W스토리
 	setTimeout(() => {
-		$('#newest_w202207155927692832b65').slick({
+		$('#w202207155927692832b65 .list-style-gallery').slick({
 			dots:false,
 			arrows:true,
 			infinite: false,
