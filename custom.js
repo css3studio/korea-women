@@ -124,7 +124,7 @@ $(document).ready(function() {
 			arrows:true,
 			infinite: true,
 			variableWidth: true,
-			slidesToShow: 1,
+			slidesToShow: 3
 		});
 	}, 1000);
 
