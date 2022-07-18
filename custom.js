@@ -124,19 +124,18 @@ $(document).ready(function() {
 			arrows:true,
 			infinite: false,
 			variableWidth: true,
-			slidesToScroll: 1,
+
 			responsive: [
 				{
 				  breakpoint: 991,
-				  settings: {
-					slidesToScroll: 1,
+
 					infinite: true,
 				  }
 				},
 				{
 				  breakpoint: 767,
 				  settings: {
-					slidesToScroll: 1,
+
 					infinite: true,
 				  }
 				}
