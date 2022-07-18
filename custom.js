@@ -130,14 +130,14 @@ $(document).ready(function() {
 				{
 				  breakpoint: 991,
 				  settings: {
-					slidesToShow: 3,
+					slidesToShow: 2,
 					infinite: true,
 				  }
 				},
 				{
 				  breakpoint: 767,
 				  settings: {
-					slidesToShow: 2,
+					slidesToShow: 1,
 					infinite: true,
 				  }
 				}
