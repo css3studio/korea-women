@@ -62,20 +62,6 @@ $(window).scroll(function(e){
   });
   */
 $(document).ready(function() {
-	// 메인 W스토리
-	setTimeout(() => {
-		$('#newest_w202207155927692832b65 .post_row').on('init', function(event, slick, direction){
-			$('#newest_w202207155927692832b65 .post_row').css('visibility','visible');
-		  });
-		$('#newest_w202207155927692832b65 .post_row').slick({
-			dots:false,
-			arrows:true,
-			infinite: false,
-			variableWidth: true,
-			slidesToShow: 3,
-			slidesToScroll: 1
-		});
-	}, 1000);
 	//푸터 패밀리 사이트
 	$('footer #family_site').change(function(){
 		location.href = $(this).val();
@@ -153,11 +139,45 @@ function init_pc(){
 		slidesToScroll: 1,
         speed: 600,
 	});
+	// 메인 W스토리
+	setTimeout(() => {
+		$('#newest_w202207155927692832b65 .post_row').on('init', function(event, slick, direction){
+			$('#newest_w202207155927692832b65 .post_row').css('visibility','visible');
+			});
+		$('#newest_w202207155927692832b65 .post_row').slick({
+			dots:false,
+			arrows:true,
+			infinite: false,
+			variableWidth: true,
+			slidesToShow: 3,
+			slidesToScroll: 1
+		});
+	}, 1000);
+
 }
 
 //모바일 버젼 초기화
 function init_mobile(){
 	$('#w2022071528a92574ee808 .button_wrap').slick("unslick");
+	$('#newest_w202207155927692832b65 .post_row').slick("unslick");
+
+
+	// 메인 W스토리
+	setTimeout(() => {
+		$('#newest_w202207155927692832b65').slick({
+			dots:false,
+			arrows:true,
+			infinite: false,
+			variableWidth: true,
+			slidesToShow: 3,
+			slidesToScroll: 1
+		});
+	}, 1000);
+
+
+
+
+
 	//2022 캠페인 헤더 LNB 메뉴(mobile)
 	$(".btn-mobile-menu").on("click",function(event){
 		if($(".campaign-header01").hasClass('open-mobile-menu')){
