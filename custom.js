@@ -77,7 +77,7 @@ $(document).ready(function() {
 	var masTime = new Date(finish_day);
 	var todayTime = new Date();
 	var diff = masTime - todayTime;
-	var diffDay = Math.floor(diff / (1000*60*60*24));
+	var diffDay = Math.floor(diff / (1000*60*60*24)) + 1;
 
 	$('.collection-bulletin dl.collection dd > span em').text(collection_percent);
 	$('.collection-bulletin dl.donator dd > div span').text(numberWithCommas(donator));
