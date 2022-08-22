@@ -1065,7 +1065,14 @@ footer .custom-text{
   align-items: center;
 }
 
+/*** sub common ***/
+.breadcrumb-menu > li:after{
+  content:"\e93e";
+  font-family:xeicon;
+  font-size:14px;
+  margin:0 10px;
 
+}
 
 
 
