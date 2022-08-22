@@ -553,29 +553,26 @@ footer .custom-text{
   top:0;
   width:100%;
 }
-.shop-content .type-slide .owl-prev::before{
-  top:-30px !important;
-  left:initial !important;;
-  right:50px !important;
-  content:"\e908" !important;;
+.shop-content .type-slide .owl-prev::before,
+.shop-content .type-slide .owl-next::before{
+  margin-top:0 !important;;
+  top:-50px !important;
+  left:initial !important;
+  content:"\e908" !important;
   display:block;
   font-family:xeicon;
   text-indent: 0 !important;
-  color:#B50F5F !important;;
-  font-size:20px !important;;  
-  border:none !important;;
+  color:#B50F5F !important;
+  font-size:20px !important;
+  border:none !important;
+  transform:translate(0) !important;
+}
+.shop-content .type-slide .owl-prev::before{
+  right:60px !important;
 }
 .shop-content .type-slide .owl-next::before{
-  top:-30px !important;
-  left:initial !important;;
   right:16px !important;
-  content:"\e90b" !important;;
-  display:block;
-  font-family:xeicon;
-  text-indent: 0 !important;
-  color:#B50F5F !important;;
-  font-size:20px !important;;  
-  border:none !important;;
+  transform:rotate(180deg) !important;
 }
 
 
