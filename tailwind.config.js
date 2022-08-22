@@ -23,7 +23,9 @@ module.exports = {
       colors: {
         'primary': '#D03B83',
         'black111': '#111',
+        'gray400': '#D8D8D8',
         'gray600': '#666',
+        'gray700': '#333',
         'pink300': '#E7A3C4',
       },
     }

@@ -1074,6 +1074,85 @@ footer .custom-text{
 
 }
 
+/*기부 안내*/
+.donate-info a.float-left:after{
+  content:"\e93e";
+  font-family:xeicon;
+  margin-left:4px
+}
+.donate-process div.d:after{
+  content:"\e93e";
+  font-family:xeicon;
+  font-size:20px
+}
+.donate-process div.d i{
+  display:none
+}
 
+
+.accordion01{
+  border-top:2px solid #000;
+  margin-bottom:80px;
+}
+.accordion01 dl{
+  border-bottom:1px solid #B9B9BE;
+  font-size:18px;
+  margin-bottom:0
+}
+
+.accordion01 dl dt a{
+  display:flex;
+  justify-content: space-between;
+  padding:16px;
+  font-weight:bold;
+  color:#333;
+}
+.accordion01 dl.active dt a{
+  border-bottom:1px solid #B9B9BE;
+}
+.accordion01 dl dt a b{
+  color:#D03B83;
+  font-weight:700;
+  margin-right:6px;
+}
+.accordion01 dl dt a:hover span{
+  text-decoration: none !important;;
+}
+.accordion01 dl dt a:after{
+  content:"\e941";
+  font-family:xeicon;
+}
+.accordion01 dl.active dt a:after{
+  transform: rotate(180deg)
+}
+.accordion01 dl dd{
+  max-height:0;
+  overflow:hidden;
+  transition:max-height 0.3s;
+}
+.accordion01 dl.active dd{
+  max-height:1000px;
+  font-size:14px;
+  color:#666;
+  padding-top:16px;
+  padding-bottom:16px;
+  max-width:776px;
+  margin:0 auto;
+}
+
+table{
+  border-top:2px solid #D03B83 !important;;
+  width:100%;
+}
+table td,
+table th{
+  padding:1rem;
+  border-bottom:1px solid #D8D8D8;
+}
+table thead th{
+  color:#D03B83;
+  font-size:14px;
+  text-align:left;
+}
 
 

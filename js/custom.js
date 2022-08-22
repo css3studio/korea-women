@@ -23,44 +23,7 @@ $(window).resize(function() {
 		device_status = "pc";
 	}
 });
-$(window).load(function() {
-	/*
-	$('#newest_w202207155927692832b65 .post_row').on('init', function(){
-		$('#newest_w202207155927692832b65 .post_row .dummy_col').remove();
-	});
 
-	$('#newest_w202207155927692832b65 .post_row').on('init', function(event, slick, direction){
-		$('#newest_w202207155927692832b65 .post_row').css('visibility','visible');
-	  });
-	$('#newest_w202207155927692832b65 .post_row').slick({
-		dots:false,
-		arrows:true,
-		infinite: false,
-		variableWidth: true,
-		slidesToShow: 3,
-		slidesToScroll: 1
-	});
-	*/
-});
-
-/*
-$(window).scroll(function(e){
-	var scroll_top = $(window).scrollTop();
-	var event_top = $('#s20220530a7e1bcbe42c68').offset().top - 10;
-	var result_top = $('#s202205307577598ce6b6d').offset().top - 10;
-	if (scroll_top > event_top && scroll_top <= result_top) {
-		$('.campaign-menu li.l1').addClass('active')
-		$('.campaign-menu li.l2').removeClass('active')
-	}else if(scroll_top > result_top) {
-		$('.campaign-menu li.l1').removeClass('active')
-		$('.campaign-menu li.l2').addClass('active')
-	}else{
-		$('.campaign-menu li.l1').removeClass('active')
-		$('.campaign-menu li.l2').removeClass('active')
-	}
-	didScroll = true;
-  });
-  */
 $(document).ready(function() {
 	//푸터 패밀리 사이트
 	$('footer #family_site').change(function(){
@@ -129,6 +92,17 @@ $(document).ready(function() {
 			touchThreshold:100
 		});
 	}, 1000);
+
+	//기부안내 FAQ 아코디언
+	$('.accordion01 dl dt').on('click', function(){
+		if($(this).parent().hasClass('active')){
+			$(this).parent().removeClass('active');
+		}
+		else{
+			$(this).parent().addClass('active');
+		}
+		event.preventDefault();
+	});
 
 
 
