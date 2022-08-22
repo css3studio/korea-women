@@ -473,7 +473,115 @@ footer .custom-text{
 .headings-main a.more:hover{
   color:#000;
 }
-/*W스토리*/
+
+/* W스토리 shop version */
+.shop-item .item-thumbs{
+  margin-bottom:20px;
+}
+.shop-item .item-thumbs a{
+  position:relative;
+  display:block;
+  height:auto;
+  overflow:hidden;
+}
+.shop-item .item-thumbs a:before{
+  content: "";
+  display: block;
+  padding-top:59.7%;
+}
+.shop-item .item-thumbs a img{
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+}
+
+.shop-item .item-detail{
+  position:relative;
+  padding-top:34px !important;;
+}
+
+.shop-item .item-detail .item-pay h2{
+  font-weight:700 !important;;
+  font-size:18px !important;;
+  color:#333 !important;
+  line-height:1.555;
+  margin-bottom:16px;
+  display:-webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+
+.shop-item .item-detail a:hover .item-pay h2{
+  text-decoration: underline;
+}
+
+.shop-item .item-detail .item-pay .ns-icon{
+  position:absolute;
+  top:0px;
+  left:130px;
+}
+.shop-item .item-detail .item-summary{
+  position:absolute;
+  top:3px;
+}
+.shop-item .item-detail .item-summary p{
+  font-size: 14px !important;
+  color: #999999 !important;
+  background-color:#fff;
+  display:block;
+  opacity: 1;
+  padding-right:8px;
+}
+.shop-item .item-detail .item-summary:before{
+  content:"";
+  display:block;
+  width:120px;
+  height:1px;
+  border-top:1px solid #999;
+  position: absolute;
+  top:11px;
+  left:0;
+  z-index:-1
+}
+.shop-content .owl-controls{
+  position:absolute;
+  top:0;
+  width:100%;
+}
+.shop-content .type-slide .owl-prev::before{
+  top:-30px !important;
+  left:initial !important;;
+  right:50px !important;
+  content:"\e908" !important;;
+  display:block;
+  font-family:xeicon;
+  text-indent: 0 !important;
+  color:#B50F5F !important;;
+  font-size:20px !important;;  
+  border:none !important;;
+}
+.shop-content .type-slide .owl-next::before{
+  top:-30px !important;
+  left:initial !important;;
+  right:16px !important;
+  content:"\e90b" !important;;
+  display:block;
+  font-family:xeicon;
+  text-indent: 0 !important;
+  color:#B50F5F !important;;
+  font-size:20px !important;;  
+  border:none !important;;
+}
+
+
+
+
+/*W스토리 board version */
 #s2022071582b8b506246e2{
   padding:96px 0;
 }
