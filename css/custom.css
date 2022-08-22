@@ -94,7 +94,7 @@ header .mega_dropdown .sub_menu a:hover{
 
 /* footer */
 footer{
-  border-top:1px solid #E5E5E5;
+  border-top:1px solid #E5E5E5 !important;
 }
 footer .custom-text{
   margin:0 !important;
