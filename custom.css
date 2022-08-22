@@ -18,6 +18,9 @@ ul{
 dl{
   margin-bottom:0
 }
+.text-white{
+  color:#fff !important;
+}
 /*
 .btn-primary, .btn-default{
   font-size:16px;
