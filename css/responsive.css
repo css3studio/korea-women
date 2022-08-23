@@ -18,16 +18,14 @@ writer: css3studio
   }
   
   header .btn_ab585ece95b90{
-    font-size:16px;
-    padding: 6px 6px !important;
-    border-radius: 32px;
+    display:flex;
+    flex-direction: row-reverse;
   }
-  header .btn_ab585ece95b90:hover{
-    border-color:#00a290 !important;
+  header .btn_ab585ece95b90:active{
+    border-color:#000 !important;
   }
-  header .btn_ab585ece95b90 span{
-    float:right;
-    margin:0 0 0 10px !important;
+  header .btn_ab585ece95b90 span.text{
+    margin:0 5px 0 0 !important;
   }
   header .btn_ab585ece95b90 span i{
     font-size:12px
