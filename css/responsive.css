@@ -471,7 +471,9 @@ writer: css3studio
     font-size:14px;
   }
 
-
+  .slide_01.type_slide.owl-carousel .owl-item{
+    width:100vw !important;
+  }
 
 
 }
