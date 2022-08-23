@@ -1104,10 +1104,16 @@ body._body_menu_m20220823dc9033a3846c4 .sub-menu.h-menu-type1.menu-horizontal > 
 body._body_menu_m20220823b6e14e2b2ac2a .sub-menu.h-menu-type1.menu-horizontal > ul >li:nth-child(4),
 body._body_menu_m20220823b6e14e2b2ac2a .sub-menu.h-menu-type1.menu-horizontal > ul >li:nth-child(5),
 body._body_menu_m20220823b6e14e2b2ac2a .sub-menu.h-menu-type1.menu-horizontal > ul >li:nth-child(6),
-body._body_menu_m20220823b6e14e2b2ac2a .sub-menu.h-menu-type1.menu-horizontal > ul >li:nth-child(7)
+body._body_menu_m20220823b6e14e2b2ac2a .sub-menu.h-menu-type1.menu-horizontal > ul >li:nth-child(7),
+body._body_menu_m202208234a34b5f548412 .sub-menu.h-menu-type1.menu-horizontal > ul >li:nth-child(4),
+body._body_menu_m202208234a34b5f548412 .sub-menu.h-menu-type1.menu-horizontal > ul >li:nth-child(5),
+body._body_menu_m202208234a34b5f548412 .sub-menu.h-menu-type1.menu-horizontal > ul >li:nth-child(6),
+body._body_menu_m202208234a34b5f548412 .sub-menu.h-menu-type1.menu-horizontal > ul >li:nth-child(7)
 {
   display:none;
 }
+
+
 body._body_menu_m20220823b6e14e2b2ac2a .sub-menu.h-menu-type1.menu-horizontal{
   margin-bottom:0
 }
