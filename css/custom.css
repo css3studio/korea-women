@@ -1184,4 +1184,36 @@ table thead th{
   text-align:left;
 }
 
+/*** 소개 > 미션과 비전 ***/
+.history-step li{
+  position:relative;
+  padding-left:24px;
+  padding-bottom:10px;
+  display:flex;
+}
+.history-step li:after{
+  content:"";
+  display:block;
+  width:1px;
+  height:100%;
+  border-left:2px dotted #D03B83;
+  position:absolute;
+  left:5px;
+  top:12px;
+}
+.history-step li:last-of-type:after{
+  content:none;
+}
+.history-step li:before{
+  content:"";
+  display:block;
+  width:12px;
+  height:12px;
+  border:3px solid #D03B83;
+  background-color:#fff;
+  border-radius:6px;
+  position:absolute;
+  left:0;
+  top:5px;
+}
 

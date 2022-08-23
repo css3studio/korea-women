@@ -23,7 +23,10 @@ tailwind.config = {
       colors: {
         'primary': '#D03B83',
         'black111': '#111',
+        'gray200': '#F5F5F5',
+        'gray300': '#E5E5E5',
         'gray400': '#D8D8D8',
+        'gray500': '#999',
         'gray600': '#666',
         'gray700': '#333',
         'pink300': '#E7A3C4',
