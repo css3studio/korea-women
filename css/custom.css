@@ -1261,3 +1261,26 @@ table.table-business02 tbody th{
   top:5px;
 }
 
+/*** 사업 ***/
+.slide_01.type_slide.owl-carousel .owl-controls .owl-dots{
+  position:absolute;
+  bottom:-60px !important;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.slide_01.type_slide.owl-carousel .owl-controls .owl-dots > .owl-dot span{
+  border-color:#D03B83 !important;
+}
+.slide_01.type_slide.owl-carousel .owl-controls .owl-dots > .owl-dot.active span{
+  background-color:#D03B83 !important;
+  border-color:#D03B83 !important;
+  width:16px !important;
+  height:16px!important;
+}
+
+
+
+
+
+
