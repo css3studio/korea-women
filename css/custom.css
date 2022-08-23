@@ -1072,8 +1072,9 @@ footer .custom-text{
   font-size:14px;
   margin:0 10px;
 }
+/*tab menu*/
 .sub-menu.h-menu-type1.menu-horizontal{
-  margin-bottom:0px;
+  margin-bottom:64px;
   border-bottom:1px solid #999;
 }
 .sub-menu.h-menu-type1.menu-horizontal > ul >li a{
@@ -1095,6 +1096,12 @@ footer .custom-text{
   background:#D03B83;
   position:relative;
   top:2.5px;
+}
+body._body_menu_m20220823dc9033a3846c4 .sub-menu.h-menu-type1.menu-horizontal > ul >li:nth-child(4),
+body._body_menu_m20220823dc9033a3846c4 .sub-menu.h-menu-type1.menu-horizontal > ul >li:nth-child(5),
+body._body_menu_m20220823dc9033a3846c4 .sub-menu.h-menu-type1.menu-horizontal > ul >li:nth-child(6),
+body._body_menu_m20220823dc9033a3846c4 .sub-menu.h-menu-type1.menu-horizontal > ul >li:nth-child(7){
+  display:none;
 }
 
 /*기부 안내*/

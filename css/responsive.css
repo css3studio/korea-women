@@ -426,7 +426,21 @@ writer: css3studio
   }  
   
   
-  
+  /*** sub common ***/
+
+  /*tab menu*/
+  .sub-menu.h-menu-type1.menu-horizontal{
+    display:block !important;
+    margin-bottom:48px;
+  }
+  .sub-menu.h-menu-type1.menu-horizontal > ul >li a{
+    font-size:14px !important;;
+    margin:0 16px !important;
+    padding-bottom:8px;
+  }
+
+
+
 }
 
 /* 스마트폰 */
