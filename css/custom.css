@@ -1190,6 +1190,7 @@ table th{
   border-left:none !important;
   vertical-align:top;
   background-color:#fff !important;
+  line-height:1.5 !important;
 }
 table thead th{
   font-size:14px !important;;
@@ -1201,6 +1202,10 @@ table tbody th{
 }
 table tbody td{
   color:#666 !important;
+}
+table tbody img.fr-dii{
+  margin-top:0 !important;
+  margin-bottom:0 !important;
 }
 
 .accordion01 table{
