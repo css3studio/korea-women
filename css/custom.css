@@ -1071,7 +1071,30 @@ footer .custom-text{
   font-family:xeicon;
   font-size:14px;
   margin:0 10px;
-
+}
+.sub-menu.h-menu-type1.menu-horizontal{
+  margin-bottom:0px;
+  border-bottom:1px solid #999;
+}
+.sub-menu.h-menu-type1.menu-horizontal > ul >li a{
+  font-size:18px !important;;
+  color:#111 !important;;
+  margin:0 24px !important;
+  padding-bottom:12px;
+}
+.sub-menu.h-menu-type1.menu-horizontal > ul >li.active a{
+  color:#D03B83 !important;
+  font-weight:700;
+  border-bottom:none;
+}
+.sub-menu.h-menu-type1.menu-horizontal > ul >li.active:after{
+  content:"";
+  display:block;
+  width:100%;
+  height:4px;
+  background:#D03B83;
+  position:relative;
+  top:2.5px;
 }
 
 /*기부 안내*/
