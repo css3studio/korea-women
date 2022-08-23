@@ -471,8 +471,17 @@ writer: css3studio
     font-size:14px;
   }
 
-  .slide_01.type_slide.owl-carousel .owl-item{
+  .section_wrap[doz_side_width="568"] .doz_aside{
     width:100vw !important;
+    max-width:100vw !important;
+  }
+  .section_wrap[doz_side_width="568"] .doz_aside .inside{
+    width:100vw !important;
+    max-width:100vw !important;
+    padding:0 0 100px;
+  }
+  .slide_01.type_slide.owl-carousel .owl-item{
+
   }
 
 
