@@ -1176,21 +1176,48 @@ body._body_menu_m20220823b6e14e2b2ac2a .sub-menu.h-menu-type1.menu-horizontal{
   max-width:776px;
   margin:0 auto;
 }
-
+/*테이블*/
 table{
-  border-top:2px solid #D03B83 !important;;
+  border-top:2px solid #333 !important;
   width:100%;
 }
 table td,
 table th{
   padding:1rem;
   border-bottom:1px solid #D8D8D8;
+  vertical-align:top;
 }
 table thead th{
+  font-size:14px;
+  text-align:left;
+}
+table tbody th{
+  font-size:16px;
+  text-align:left;
+}
+table tbody td{
+  color:#666 !important;
+}
+
+.accordion01 table{
+  border-top:2px solid #D03B83 !important;
+}
+.accordion01 table thead th{
   color:#D03B83;
   font-size:14px;
   text-align:left;
 }
+
+table.table-business01 td,
+table.table-business01 th{
+  padding-left:0;
+  padding-right:0;
+}
+
+table.table-business02 tbody th{
+  color:#D03B83;
+}
+
 
 /*** 소개 > 미션과 비전 ***/
 .history-step li{

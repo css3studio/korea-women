@@ -439,6 +439,22 @@ writer: css3studio
     padding-bottom:8px;
   }
 
+  /*테이블*/
+  table td,
+  table th{
+    padding:8px;
+  }
+  table thead th{
+    font-size:13px;
+  }
+  table tbody th{
+    font-size:14px;
+  }
+  table tbody td{
+    font-size:14px;
+  }
+
+
 
 
 }
