@@ -1108,7 +1108,9 @@ body._body_menu_m20220823b6e14e2b2ac2a .sub-menu.h-menu-type1.menu-horizontal > 
 {
   display:none;
 }
-
+body._body_menu_m20220823b6e14e2b2ac2a .sub-menu.h-menu-type1.menu-horizontal{
+  margin-bottom:0
+}
 
 /*기부 안내*/
 .donate-info a.float-left:after{
