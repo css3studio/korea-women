@@ -94,6 +94,45 @@ $(document).ready(function() {
 		});
 	}, 1000);
 	*/
+	//기부안내 FAQ 아코디언
+	$('.accordion01 dl dt').on('click', function(){
+		if($(this).parent().hasClass('active')){
+			$(this).parent().removeClass('active');
+		}
+		else{
+			$(this).parent().addClass('active');
+		}
+		event.preventDefault();
+	});
+
+
+
+	//2022 캠페인 carousel
+	$(".campaign-carousel .slider").lightGallery({
+		thumnail: true,
+	});
+
+	$('.campaign-carousel .slider').slick({
+		dots: false,
+		arrows: true,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		variableWidth: true
+	});
+});
+
+//PC버젼 초기화
+function init_pc(){
+	$('btn-mobile-menu').off();
+	//메인 퀵메뉴
+	$('#w2022071528a92574ee808 .button_wrap').slick({
+		dots: false,
+		arrows: true,
+		slidesToShow: 4,
+		infinite: false,
+		slidesToScroll: 1,
+        speed: 600,
+	});
 	//연혁 연도 슬라이딩
 	$('.sub-menu.h-menu-type2.menu-horizontal ul').on('init',function(){
 		//현재 년도로 이동
@@ -138,45 +177,6 @@ $(document).ready(function() {
 			}
 			}
 		]
-	});
-	//기부안내 FAQ 아코디언
-	$('.accordion01 dl dt').on('click', function(){
-		if($(this).parent().hasClass('active')){
-			$(this).parent().removeClass('active');
-		}
-		else{
-			$(this).parent().addClass('active');
-		}
-		event.preventDefault();
-	});
-
-
-
-	//2022 캠페인 carousel
-	$(".campaign-carousel .slider").lightGallery({
-		thumnail: true,
-	});
-
-	$('.campaign-carousel .slider').slick({
-		dots: false,
-		arrows: true,
-		slidesToShow: 4,
-		slidesToScroll: 1,
-		variableWidth: true
-	});
-});
-
-//PC버젼 초기화
-function init_pc(){
-	$('btn-mobile-menu').off();
-	//메인 퀵메뉴
-	$('#w2022071528a92574ee808 .button_wrap').slick({
-		dots: false,
-		arrows: true,
-		slidesToShow: 4,
-		infinite: false,
-		slidesToScroll: 1,
-        speed: 600,
 	});
 
 }
