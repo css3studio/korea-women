@@ -140,7 +140,7 @@ $(document).ready(function() {
 				}
 			]
 		});
-	},500);
+	},1000);
 	//기부안내 FAQ 아코디언
 	$('.accordion01 dl dt').on('click', function(){
 		if($(this).parent().hasClass('active')){
