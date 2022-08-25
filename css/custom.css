@@ -21,6 +21,9 @@ dl{
 .text-white{
   color:#fff !important;
 }
+b{
+  font-weight:700 !important;
+}
 /*
 .btn-primary, .btn-default{
   font-size:16px;
