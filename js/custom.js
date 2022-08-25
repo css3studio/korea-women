@@ -95,7 +95,6 @@ $(document).ready(function() {
 	}, 1000);
 	*/
 	//연혁 연도 슬라이딩
-	/*
 	$('.sub-menu.h-menu-type2.menu-horizontal ul').on('init',function(){
 		//현재 년도로 이동
 		var class_names = $('body').attr('class');
@@ -108,7 +107,7 @@ $(document).ready(function() {
 				$('.sub-menu.h-menu-type2.menu-horizontal ul').slick('slickGoTo',li_index);
 			},500);
 		}
-	});*/
+	});
 	$('.sub-menu.h-menu-type2.menu-horizontal ul').slick({
 		dots: false,
 		arrows: true,
