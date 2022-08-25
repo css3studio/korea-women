@@ -1125,6 +1125,7 @@ body._body_menu_m20220823b6e14e2b2ac2a .sub-menu.h-menu-type1.menu-horizontal{
 }
 .sub-menu.h-menu-type2.menu-horizontal ul{
   max-width:968px;
+  width:100% !important;
   margin:0 auto !important;
 }
 .sub-menu.h-menu-type2.menu-horizontal .slick-list{
