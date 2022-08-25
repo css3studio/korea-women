@@ -1139,6 +1139,7 @@ body._body_menu_m20220823b6e14e2b2ac2a .sub-menu.h-menu-type1.menu-horizontal{
 }
 .sub-menu.h-menu-type2.menu-horizontal ul li a{
   display:block;
+  width:100%;
   border:1px solid #E7A3C4;
   padding:8px 32px;
   box-sizing: border-box;
