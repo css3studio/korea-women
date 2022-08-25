@@ -1118,6 +1118,30 @@ body._body_menu_m20220823b6e14e2b2ac2a .sub-menu.h-menu-type1.menu-horizontal{
   margin-bottom:0
 }
 
+/* tab meu 2 */
+.sub-menu.h-menu-type2.menu-horizontal{
+  margin-bottom:64px;
+}
+.sub-menu.h-menu-type2.menu-horizontal ul li a{
+  border:1px solid #E7A3C4;
+  padding:8px 32px;
+}
+.sub-menu.h-menu-type2.menu-horizontal ul li a:hover{
+  border-color:#D03B83;
+}
+.sub-menu.h-menu-type2.menu-horizontal ul li a span{
+  font-weight:700;
+  font-size:1rem;
+  color:#D03B83;
+}
+.sub-menu.h-menu-type2.menu-horizontal ul li.active a{
+  border:1px solid #D03B83 !important;;
+  background-color:#D03B83;
+}
+.sub-menu.h-menu-type2.menu-horizontal ul li.active a span{
+  color:#fff;
+}
+
 /*기부 안내*/
 .donate-info a.float-left:after{
   content:"\e93e";
