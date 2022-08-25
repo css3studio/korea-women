@@ -109,7 +109,7 @@ $(document).ready(function() {
 		}
 	});
 	$('.sub-menu.h-menu-type2.menu-horizontal ul').slick({
-		dots: false,
+		dots: true,
 		arrows: true,
 		slidesToShow: 9,
 		infinite: false,
