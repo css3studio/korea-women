@@ -114,7 +114,7 @@ $(document).ready(function() {
 		slidesToShow: 9,
 		infinite: false,
 		slidesToScroll: 1,
-		speed: 600,
+		speed: 0,
 		focusOnSelect: true,
 		responsive: [
 			{
