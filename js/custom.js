@@ -115,6 +115,7 @@ $(document).ready(function() {
 		infinite: false,
 		slidesToScroll: 1,
 		speed: 600,
+		focusOnSelect: true,
 		responsive: [
 			{
 			breakpoint: 1024,
