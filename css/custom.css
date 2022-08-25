@@ -1120,9 +1120,23 @@ body._body_menu_m20220823b6e14e2b2ac2a .sub-menu.h-menu-type1.menu-horizontal{
 
 /* tab meu 2 */
 .sub-menu.h-menu-type2.menu-horizontal{
+  position:relative;
   margin-bottom:64px;
 }
+.sub-menu.h-menu-type2.menu-horizontal ul{
+  max-width:968px;
+  margin:0 auto !important;
+}
+.sub-menu.h-menu-type2.menu-horizontal .slick-list{
+  overflow:hidden;
+  width:100%;
+  margin:0 -4px;
+}
+.sub-menu.h-menu-type2.menu-horizontal ul li {
+  padding:0 4px;
+}
 .sub-menu.h-menu-type2.menu-horizontal ul li a{
+  display:block;
   border:1px solid #E7A3C4;
   padding:8px 32px;
 }
@@ -1141,6 +1155,64 @@ body._body_menu_m20220823b6e14e2b2ac2a .sub-menu.h-menu-type1.menu-horizontal{
 .sub-menu.h-menu-type2.menu-horizontal ul li.active a span{
   color:#fff;
 }
+.sub-menu.h-menu-type2.menu-horizontal .slick-prev,
+.sub-menu.h-menu-type2.menu-horizontal .slick-next
+{
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  border:none;
+  background: transparent;
+  text-indent: -9999px;
+  width:40px;
+  height:40px;
+  border-radius:20px;
+  border:1px solid #E7A3C4;
+  padding:0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub-menu.h-menu-type2.menu-horizontal .slick-prev{
+  left:0px;
+}
+.sub-menu.h-menu-type2.menu-horizontal .slick-next{
+  right:0px;
+}
+
+.sub-menu.h-menu-type2.menu-horizontal .slick-prev:after,
+.sub-menu.h-menu-type2.menu-horizontal .slick-next:after{
+  content:"\e908";
+  display:block;
+  font-family:xeicon;
+  text-indent: 0 !important;
+  color:#E7A3C4;
+  font-size:20px;
+}
+
+.sub-menu.h-menu-type2.menu-horizontal .slick-next:after{
+  content:"\e90b";
+}
+
+.sub-menu.h-menu-type2.menu-horizontal .slick-prev:hover,
+.sub-menu.h-menu-type2.menu-horizontal .slick-next:hover
+{
+  border-color:#B50F5F;
+  background-color: #B50F5F;
+}
+.sub-menu.h-menu-type2.menu-horizontal .slick-prev:hover:after,
+.sub-menu.h-menu-type2.menu-horizontal .slick-next:hover:after
+{
+  color:#fff;
+}
+.sub-menu.h-menu-type2.menu-horizontal .slick-arrow.slick-disabled{
+  border-color:#D8D8D8
+}
+.sub-menu.h-menu-type2.menu-horizontal .slick-arrow.slick-disabled:after{
+  color:#D8D8D8
+}
+
+
 
 /*기부 안내*/
 .donate-info a.float-left:after{
