@@ -94,6 +94,52 @@ $(document).ready(function() {
 		});
 	}, 1000);
 	*/
+	//연혁 연도 슬라이딩
+	/*
+	$('.sub-menu.h-menu-type2.menu-horizontal ul').on('init',function(){
+		//현재 년도로 이동
+		var class_names = $('body').attr('class');
+		var myRegex = /_body_menu_\w+/;
+		var result = class_names.match(myRegex);
+		if(result.length > 0){
+			var page_code = result[0].replace('_body_menu_','');
+			var li_index = $('.sub-menu.h-menu-type2.menu-horizontal ul li[data-code="'+ page_code +'"]').index();
+			setTimeout(function(){
+				$('.sub-menu.h-menu-type2.menu-horizontal ul').slick('slickGoTo',li_index);
+			},500);
+		}
+	});*/
+	$('.sub-menu.h-menu-type2.menu-horizontal ul').slick({
+		dots: false,
+		arrows: true,
+		slidesToShow: 9,
+		infinite: false,
+		slidesToScroll: 1,
+		speed: 600,
+		responsive: [
+			{
+			breakpoint: 1024,
+			settings: {
+				slidesToShow: 7,
+				slidesToScroll: 1,
+			}
+			},
+			{
+			breakpoint: 600,
+			settings: {
+				slidesToShow: 5,
+				slidesToScroll: 2
+			}
+			},
+			{
+			breakpoint: 480,
+			settings: {
+				slidesToShow: 4,
+				slidesToScroll: 1
+			}
+			}
+		]
+	});
 	//기부안내 FAQ 아코디언
 	$('.accordion01 dl dt').on('click', function(){
 		if($(this).parent().hasClass('active')){
@@ -132,51 +178,6 @@ function init_pc(){
 		infinite: false,
 		slidesToScroll: 1,
         speed: 600,
-	});
-	//연혁 연도 슬라이딩
-	$('.sub-menu.h-menu-type2.menu-horizontal ul').on('init',function(){
-		//현재 년도로 이동
-		var class_names = $('body').attr('class');
-		var myRegex = /_body_menu_\w+/;
-		var result = class_names.match(myRegex);
-		if(result.length > 0){
-			var page_code = result[0].replace('_body_menu_','');
-			var li_index = $('.sub-menu.h-menu-type2.menu-horizontal ul li[data-code="'+ page_code +'"]').index();
-			setTimeout(function(){
-				$('.sub-menu.h-menu-type2.menu-horizontal ul').slick('slickGoTo',li_index);
-			},500);
-		}
-	});
-	$('.sub-menu.h-menu-type2.menu-horizontal ul').slick({
-		dots: true,
-		arrows: true,
-		slidesToShow: 9,
-		infinite: false,
-		slidesToScroll: 1,
-		speed: 600,
-		responsive: [
-			{
-			breakpoint: 1024,
-			settings: {
-				slidesToShow: 7,
-				slidesToScroll: 1,
-			}
-			},
-			{
-			breakpoint: 600,
-			settings: {
-				slidesToShow: 5,
-				slidesToScroll: 2
-			}
-			},
-			{
-			breakpoint: 480,
-			settings: {
-				slidesToShow: 4,
-				slidesToScroll: 1
-			}
-			}
-		]
 	});
 
 }
