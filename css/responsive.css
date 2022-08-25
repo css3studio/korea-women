@@ -456,6 +456,47 @@ writer: css3studio
     padding-bottom:8px;
   }
 
+
+  /* tab meu 2 */
+  .sub-menu.h-menu-type2.menu-horizontal{
+    display:block !important;
+    margin-bottom:48px;
+    height:32px;
+  }
+  .sub-menu.h-menu-type2.menu-horizontal ul{
+
+  }
+  .sub-menu.h-menu-type2.menu-horizontal .slick-list{
+    width:auto;
+    margin:0 40px !important;
+  }
+  .sub-menu.h-menu-type2.menu-horizontal ul li {
+    padding:0 16px 0 0 !important;
+  }
+  .sub-menu.h-menu-type2.menu-horizontal ul li a{
+    border:none;
+    height:32px;
+  }
+  .sub-menu.h-menu-type2.menu-horizontal ul li a span{
+    font-size:16px;
+    color:#666;
+  }
+  .sub-menu.h-menu-type2.menu-horizontal ul li.active a{
+    border:none !important;
+    background-color:#fff;
+  }
+  .sub-menu.h-menu-type2.menu-horizontal ul li.active a span{
+    color:#D03B83;
+  }
+  .sub-menu.h-menu-type2.menu-horizontal .slick-prev,
+  .sub-menu.h-menu-type2.menu-horizontal .slick-next
+  {
+    width:32px;
+    height:32px;
+    border-radius:16px;
+  }
+
+
   /*테이블*/
   table td,
   table th{
