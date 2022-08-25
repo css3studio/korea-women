@@ -104,8 +104,7 @@ $(document).ready(function() {
 			var page_code = result[0].replace('_body_menu_','');
 			var li_index = $('.sub-menu.h-menu-type2.menu-horizontal ul li[data-code="'+ page_code +'"]').index();
 			setTimeout(function(){
-				$('.sub-menu.h-menu-type2.menu-horizontal ul').slick('slickGoTo',li_index);
-				console.log(li_index)
+				$('.sub-menu.h-menu-type2.menu-horizontal ul').slick('slickGoTo',li_index - 1);
 			},500);
 		}
 	});
