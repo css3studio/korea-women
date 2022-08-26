@@ -580,7 +580,14 @@ writer: css3studio
     font-size:14px;
     padding:12px 10px 12px 24px !important;;
   }
-  
+
+
+  /* modal */
+  .modal-dialog main > .inside{
+    padding:0 16px;
+  }
+
+
   
 }
 
