@@ -1418,6 +1418,7 @@ table.table-business02 tbody th{
   background-color:#666;
   padding:8px 32px;
   border-radius:8px;
+  text-align:center;
 }
 .board._list_wrap .board-head .tools form .ico-search i{
   display:none;

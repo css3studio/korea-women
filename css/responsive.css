@@ -526,6 +526,33 @@ writer: css3studio
   }
 
 
+  /*** 일반게시판 ***/
+  .board._list_wrap .board-head .tools{
+    margin-bottom:0
+  }
+  .board._list_wrap .board-head .tools form{
+    display:block;
+  }
+  .board._list_wrap .board-head .tools form input{
+    width:100%;
+    margin-right:0;
+
+  }.board._list_wrap .board-head .tools form .ico-search{
+    display:block;
+    margin-top:8px;
+  }
+
+  .board._list_wrap .li_board .category{
+    display:block !important;
+    padding:0
+  }
+  .board._list_wrap .li_board .tit > *{
+    display:none;
+  }
+  .board._list_wrap .li_board a.list_text_title{
+    font-size:16px;
+    display:block;
+  }
 }
 
 /* 스마트폰 */
