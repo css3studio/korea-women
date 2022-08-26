@@ -505,17 +505,17 @@ writer: css3studio
 
 
   /*테이블*/
-  table td,
-  table th{
+  .text-table table td,
+  .text-table table th{
     padding:8px;
   }
-  table thead th{
+  .text-table table thead th{
     font-size:13px;
   }
-  table tbody th{
+  .text-table table tbody th{
     font-size:14px;
   }
-  table tbody td{
+  .text-table table tbody td{
     font-size:14px;
   }
 

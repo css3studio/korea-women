@@ -1291,13 +1291,13 @@ body._body_menu_m20220823b6e14e2b2ac2a .sub-menu.h-menu-type1.menu-horizontal{
   margin:0 auto;
 }
 /*테이블*/
-table{
+.text-table table{
   border-top:2px solid #333 !important;
   border-left:none !important;
   width:100%;
 }
-table td,
-table th{
+.text-table table td,
+.text-table table th{
   padding:1rem !important;
   border-bottom:1px solid #D8D8D8;
   border-right:none !important;
@@ -1306,18 +1306,18 @@ table th{
   background-color:#fff !important;
   line-height:1.5 !important;
 }
-table thead th{
+.text-table table thead th{
   font-size:14px !important;;
   text-align:left;
 }
-table tbody th{
+.text-table table tbody th{
   font-size:16px !important;;
   text-align:left;
 }
-table tbody td{
+.text-table table tbody td{
   color:#666 !important;
 }
-table tbody img.fr-dii{
+.text-table table tbody img.fr-dii{
   margin-top:0 !important;
   margin-bottom:0 !important;
 }
