@@ -1393,8 +1393,50 @@ table.table-business02 tbody th{
   height:16px!important;
 }
 
+/*** 일반게시판 ***/
 
+.board._list_wrap .board-head{
+  padding-bottom:32px !important;
+  overflow:hidden;
+}
+.board._list_wrap .board-head .heading{
+  display:none;
+}
+.board._list_wrap .board-head .tools form{
+  display:flex;
+  justify-content: right;
+}
+.board._list_wrap .board-head .tools form input{
+  height:40px;
+  width:200px;
+  border-radius:8px !important;
+  margin-right:8px
 
+}.board._list_wrap .board-head .tools form .ico-search{
+  position:static;
+  margin-top:0;
+  background-color:#666;
+  padding:8px 32px;
+  border-radius:8px;
+}
+.board._list_wrap .board-head .tools form .ico-search i{
+  display:none;
+}
+.board._list_wrap .board-head .tools form .ico-search .sr-only{
+  position:static;
+  color:#fff;
+  font-weight:bold
+}
 
-
-
+.board._list_wrap .li_board{
+  border-top:2px solid #111;
+}
+.board._list_wrap .li_board .li_header{
+  display:none;
+}
+.board._list_wrap .li_board a.list_text_title:hover{
+  font-weight:bold;
+}
+.board._list_wrap .li_board .category a em{
+  font-weight:bold;
+}
