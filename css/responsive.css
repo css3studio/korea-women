@@ -560,6 +560,28 @@ writer: css3studio
     font-size:16px;
     display:block;
   }
+  
+/*** 교육장 대여 ***/
+  #w20220826c0f591e38327f{
+    margin:0 -16px 40px;
+  }
+  #w20220826c0f591e38327f ._gallery_wrap:before{
+    padding-bottom:62%;
+  }
+  .text-table table.table-education01 {
+    margin-bottom:48px;
+  }
+  .text-table table.table-education01 tbody th{
+    width:30%;
+    font-size:14px !important;
+  }
+  
+  .btn_a35bf512248c2{
+    font-size:14px;
+    padding:12px 10px 12px 24px !important;;
+  }
+  
+  
 }
 
 /* 스마트폰 */

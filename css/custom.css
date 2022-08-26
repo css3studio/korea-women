@@ -1444,6 +1444,24 @@ table.table-business02 tbody th{
 
 /*** 교육장 대여 ***/
 
+#w20220826c0f591e38327f ._gallery_wrap{
+  height:auto !important;
+  position:relative;
+}
+
+#w20220826c0f591e38327f ._gallery_wrap:before{
+  content:"";
+  display:block;
+  padding-bottom:48%;
+}
+#w20220826c0f591e38327f .owl-carousel{
+  position:absolute;
+  top:0;
+  botttom:0;
+  left:0;
+  right:0;
+}
+
 .btn_a35bf512248c2{
   display: flex;
   flex-direction: row-reverse;
