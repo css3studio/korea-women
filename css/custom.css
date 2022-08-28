@@ -21,7 +21,7 @@ dl{
 .text-white{
   color:#fff !important;
 }
-b{
+b, strong{
   font-weight:700 !important;
 }
 /*
@@ -1254,18 +1254,19 @@ body._body_menu_m20220823b6e14e2b2ac2a .sub-menu.h-menu-type1.menu-horizontal{
 .accordion01 dl dt a{
   display:flex;
   justify-content: space-between;
+  align-items: center;
   padding:16px;
   font-weight:bold;
   color:#333;
 }
+.accordion01 dl dt a span strong{
+  color:#D03B83 !important;
+  margin-right:8px;
+}
 .accordion01 dl.active dt a{
   border-bottom:1px solid #B9B9BE;
 }
-.accordion01 dl dt a b{
-  color:#D03B83;
-  font-weight:700;
-  margin-right:6px;
-}
+
 .accordion01 dl dt a:hover span{
   text-decoration: none !important;;
 }

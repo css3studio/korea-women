@@ -532,6 +532,31 @@ writer: css3studio
 
   }
 
+  /*기부 안내*/
+  .donate-process div.d{
+    text-align:center;
+    padding:6px 0;
+  }
+  .donate-process div.d:after{
+    content:"\e941";
+  }
+
+
+  .accordion01 dl{
+    font-size:14px;
+  }
+  .accordion01 dl dt a{
+    padding:8px;
+    
+  }
+
+  .accordion01 dl dd{
+
+  }
+  .accordion01 dl.active dd{
+    font-size:13px;
+    padding:8px;
+  }
 
   /*** 일반게시판 ***/
   .board._list_wrap .board-head .tools{
