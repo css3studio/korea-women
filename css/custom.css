@@ -1293,9 +1293,24 @@ body._body_menu_m20220823b6e14e2b2ac2a .sub-menu.h-menu-type1.menu-horizontal{
 }
 
 /*성평등 기금*/
+.slide_02.owl-carousel.gallery2 .owl-item .item_container{
+  border:none !important;
+}
+.slide_02.owl-carousel.gallery2 .owl-item .img_wrap{
+  margin-bottom:24px;
+}
+.slide_02.owl-carousel.gallery2 .owl-item .text_wrap .title{
+  padding:24px 0 0 0 !important;
+  position:relative;
+  font-weight:700;
+}
+.slide_02.owl-carousel.gallery2 .owl-item .text_wrap .title span{
+  position:absolute;
+  top:0;
+}
 
-.slide_02.type_slide.owl-carousel.gallery2 .owl-prev::before,
-.slide_02.type_slide.owl-carousel.gallery2 .owl-next::before{
+.slide_02.owl-carousel.gallery2 .owl-prev::before,
+.slide_02.owl-carousel.gallery2 .owl-next::before{
   margin-top:0 !important;;
   top:-50px !important;
   left:initial !important;
@@ -1308,10 +1323,10 @@ body._body_menu_m20220823b6e14e2b2ac2a .sub-menu.h-menu-type1.menu-horizontal{
   border:none !important;
   transform:translate(0) !important;
 }
-.slide_02.type_slide.owl-carousel.gallery2 .owl-prev::before{
+.slide_02.owl-carousel.gallery2 .owl-prev::before{
   right:50px !important;
 }
-.slide_02.type_slide.owl-carousel.gallery2 .owl-next::before{
+.slide_02.owl-carousel.gallery2 .owl-next::before{
   right:6px !important;
   transform:rotate(180deg) !important;
 }
