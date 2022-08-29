@@ -1518,7 +1518,11 @@ table.table-business02 tbody th{
   gap: 10px;
   align-items: center;
   font-size:16px;
-  padding:12px 10px 12px 24px !important;;
+  padding:12px 10px 12px 24px !important;
+}
+.btn_a35bf512248c2 span i{
+  font-weight:700 !important;
+  font-size:12px;
 }
 
 /* modal */
