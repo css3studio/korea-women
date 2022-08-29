@@ -1293,12 +1293,6 @@ body._body_menu_m20220823b6e14e2b2ac2a .sub-menu.h-menu-type1.menu-horizontal{
 }
 
 /*성평등 기금*/
-.slide_02.owl-carousel.gallery2{
-  margin: 0px -16px !important;;
-}
-.slide_02.owl-carousel.gallery2 .owl-item{
-  padding:0 16px !important;
-}
 .slide_02.owl-carousel.gallery2 .owl-item .item_container{
   border:none !important;
 }
