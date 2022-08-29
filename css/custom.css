@@ -1242,7 +1242,7 @@ body._body_menu_m20220823b6e14e2b2ac2a .sub-menu.h-menu-type1.menu-horizontal{
 }
 
 a.arrow{
-  display:flex;
+  display:inline-flex;
   white-space:nowrap;
 }
 a.arrow:after{
