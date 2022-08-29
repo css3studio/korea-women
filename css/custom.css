@@ -1360,6 +1360,13 @@ a.arrow:after{
   top:0;
 }
 
+#w20220829b731e089e23c7 .grid_02.type_grid.img_border.gallery2 .text_wrap .title{
+  padding:0!important;
+}
+#w20220829b731e089e23c7 .grid_02.type_grid.img_border.gallery2 .text_wrap .title span{
+  position:static;
+  margin-top:8px;
+}
 
 /*테이블*/
 .text-table table{
