@@ -1344,6 +1344,10 @@ a.arrow:after{
 .grid_02.type_grid.img_border.gallery2 .gallery_row{
   margin-bottom:64px;
 }
+.grid_02.type_grid.img_border.gallery2 .item_gallary{
+  padding-top:0 !important;
+  padding-bottom:0 !important;
+}
 .grid_02.type_grid.img_border.gallery2 .img_wrap{
   margin-bottom:24px;
 }
