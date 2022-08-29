@@ -557,6 +557,14 @@ writer: css3studio
     font-size:13px;
     padding:8px;
   }
+  
+  /*성평등 기금*/
+  .slide_02.owl-carousel.gallery2 .owl-prev::before{
+    right:60px !important;
+  }
+  .slide_02.owl-carousel.gallery2 .owl-next::before{
+    right:20px !important;
+  }
 
   /*** 일반게시판 ***/
   .board._list_wrap .board-head .tools{
