@@ -642,6 +642,20 @@ writer: css3studio
   }
 
 
+  #w20220829ab1bf95de80fe form .form-group{
+    display:block;
+    padding:8px;
+  }
+  #w20220829ab1bf95de80fe form .form-group > label{
+    width:auto;
+    margin-bottom:8px;
+  }
+
+  #w20220829ab1bf95de80fe form .form-group.privacy{
+    display:block;
+    padding:8px 8px;
+  }
+
   
 }
 
