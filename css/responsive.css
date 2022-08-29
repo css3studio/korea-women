@@ -640,6 +640,9 @@ writer: css3studio
   .modal-dialog main > .inside{
     padding:0 16px;
   }
+  .modal-dialog .modal-content{
+    margin: 0 !important;;
+  }
 
 
   #w20220829ab1bf95de80fe form .form-group{
