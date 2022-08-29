@@ -454,7 +454,6 @@ writer: css3studio
   }
   .sub-menu.h-menu-type1.menu-horizontal > ul{
     display:flex !important;
-    justify-content: center;
   }
   .sub-menu.h-menu-type1.menu-horizontal > ul >li a{
     font-size:14px !important;;
