@@ -1617,3 +1617,41 @@ table.table-business02 tbody th{
 #w20220829ab1bf95de80fe form .form-group textarea{
   height:160px;
 }
+
+/*** W스토리 ***/
+.section_first .button_wrap > div{
+  margin:0 4px;
+}
+.section_first .button_wrap > div > .btn{
+  height:40px;
+  border-radius:20px;
+  font-size:16px;
+  line-height:1.4;
+  padding:8px 32px;
+  margin:0 !important;
+}
+.section_first .button_wrap > div > .btn.btn-default{
+  background-color:#D03B83 !important;
+  color:#fff !important;
+  border:none;
+}
+#w2022080495e743d58397c .btn_bee42881d1523{
+  color:#fff !important;
+}
+#w2022080495e743d58397c .btn_bee42881d1523:hover{
+  color:#fff !important;
+}
+.section_first .button_wrap > div > .btn.btn-primary{
+  background-color:#fff !important;
+  color:#D03B83 !important;
+  border: 1px solid #E7A3C4 !important;;
+}
+.section_first .button_wrap > div > .btn.btn-primary:hover{
+  background-color:#E7A3C4 !important;
+  color:#fff !important;
+}
+
+
+
+
+
