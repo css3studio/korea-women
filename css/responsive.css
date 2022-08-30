@@ -658,6 +658,73 @@ writer: css3studio
     padding:8px 8px;
   }
 
+  /*** W스토리 ***/
+  .section_first .button_wrap{
+    margin-bottom:24px !important;
+    display:flex;
+    overflow-x:scroll;
+    overflow-y:hidden;
+  }
+  .section_first .button_wrap > div{
+    margin:0 8px;
+  }
+  .section_first .button_wrap > div > .btn{
+    height:auto;
+    border-radius:0;
+    padding:0;
+
+  }
+  .section_first .button_wrap > div > .btn.btn-default{
+    background-color:#fff !important;;
+    color:#D03B83 !important;
+  }
+  #w2022080495e743d58397c .btn_bee42881d1523,
+  #w2022080495e743d58397c .btn_bee42881d1523:hover,
+  #w2022080546c270cc168a5 .btn_368u3L030Q,
+  #w2022080546c270cc168a5 .btn_368u3L030Q:hover,
+  #w20220805efd50c0202ba4 .btn_17mu53r1o1,
+  #w20220805efd50c0202ba4 .btn_17mu53r1o1:hover,
+  #w202208059a869df4eb532 .btn_F2g1IiFB2Z,
+  #w202208059a869df4eb532 .btn_F2g1IiFB2Z:hover
+  {
+    color:#D03B83 !important;
+  }
+  .section_first .button_wrap > div > .btn.btn-primary{
+    background-color:#fff !important;
+    color:#666 !important;
+    border:none !important;
+    font-weight:normal
+  }
+
+  .search_btn_type02{
+    width:100% !important;
+    height:40px !important;
+    margin-bottom:32px;
+  }
+    .search_btn_type02:before{
+    width:100% !important;
+    border-radius:6px !important;
+      
+  }
+  .search_btn_type02 form{
+    max-width:100% !important;
+  }
+  .search_btn_type02 form input{
+    width:100% !important;
+    height:40px !important;
+  }
+  .search_btn_type02 form a{
+    line-height: 40px !important;
+  }
+
+  .section_first + .section_wrap ._widget_data[data-widget-type="button"]{
+    margin-bottom:20px
+  }
+  .section_first + .section_wrap ._widget_data[data-widget-type="button"] .txt_l a.btn{
+    padding:4px 12px;
+    font-size:13px;
+  }
+
   
 }
 
