@@ -1656,6 +1656,18 @@ table.table-business02 tbody th{
   color:#fff !important;
 }
 
+.section_first + .section_wrap ._widget_data[data-widget-type="button"] a.btn{
+  border:none !important;
+  background-color:#FBF4F7 !important;
+  padding:4px 12px;
+  font-size:14px;
+  font-weight:400;
+  color:#B50F5F !important;
+}
+#w2022080478a6ce4d6e85f .btn
+{
+  color:#B50F5F !important;
+}
 
 
 
