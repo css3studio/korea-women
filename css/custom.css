@@ -1527,6 +1527,31 @@ table.table-business02 tbody th{
   font-weight:bold;
 }
 
+.pagination li{
+  margin:0 !important;
+}
+.pagination li a{
+  height:40px !important;
+  line-height:40px !important;
+  width:40px !important;
+}
+.pagination li a:hover{
+  background-color:#DE649F;
+}
+.pagination li.active a{
+  background-color:#D03B83;
+  color:#fff;
+  height:40px;
+  line-height:40px;
+  width:40px;
+}
+.pagination .icon-arrow-left,
+.pagination .icon-arrow-right
+{
+  color:#D03B83;
+  font-weight:700;
+}
+
 /*** 교육장 대여 ***/
 
 #w20220826c0f591e38327f ._gallery_wrap{
