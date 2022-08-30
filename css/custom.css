@@ -543,7 +543,7 @@ footer .custom-text{
 
 .shop-item .item-detail .item-pay .ns-icon{
   position:absolute;
-  top:0px;
+  top:1px;
   left:130px;
 }
 .shop-item .item-detail .item-summary{
@@ -565,7 +565,7 @@ footer .custom-text{
   height:1px;
   border-top:1px solid #999;
   position: absolute;
-  top:11px;
+  top:12px;
   left:0;
   z-index:-1
 }
