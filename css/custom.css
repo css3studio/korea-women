@@ -487,21 +487,29 @@ footer .custom-text{
 }
 
 /* W스토리 shop version */
-.shop-item .item-thumbs{
+.shop-item .item-thumbs,
+.shop-item .item-wrap
+{
   margin-bottom:20px;
 }
-.shop-item .item-thumbs a{
+.shop-item .item-thumbs a,
+.shop-item .item-wrap a
+{
   position:relative;
   display:block;
   height:auto;
   overflow:hidden;
 }
-.shop-item .item-thumbs a:before{
+.shop-item .item-thumbs a:before,
+.shop-item .item-wrap a:before
+{
   content: "";
   display: block;
   padding-top:59.7%;
 }
-.shop-item .item-thumbs a img{
+.shop-item .item-thumbs a img,
+.shop-item .item-wrap a img
+{
   position:absolute;
   left:0;
   right:0;
@@ -511,7 +519,8 @@ footer .custom-text{
 
 .shop-item .item-detail{
   position:relative;
-  padding-top:34px !important;;
+  padding-top:34px !important;
+  padding-bottom:0px !important;
 }
 
 .shop-item .item-detail .item-pay h2{
@@ -519,7 +528,7 @@ footer .custom-text{
   font-size:18px !important;;
   color:#333 !important;
   line-height:1.555;
-  margin-bottom:16px;
+  margin-bottom:0px;
   display:-webkit-box;
   -webkit-line-clamp:3;
   -webkit-box-orient:vertical;
