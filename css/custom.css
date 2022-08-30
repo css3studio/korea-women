@@ -1635,10 +1635,11 @@ table.table-business02 tbody th{
   color:#fff !important;
   border:none;
 }
-#w2022080495e743d58397c .btn_bee42881d1523{
-  color:#fff !important;
-}
-#w2022080495e743d58397c .btn_bee42881d1523:hover{
+#w2022080495e743d58397c .btn_bee42881d1523,
+#w2022080495e743d58397c .btn_bee42881d1523:hover,
+#w2022080546c270cc168a5 .btn_368u3L030Q,
+#w2022080546c270cc168a5 .btn_368u3L030Q:hover
+{
   color:#fff !important;
 }
 .section_first .button_wrap > div > .btn.btn-primary{
