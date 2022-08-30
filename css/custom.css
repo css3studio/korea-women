@@ -1690,7 +1690,7 @@ table.table-business02 tbody th{
   color:#fff !important;
 }
 
-.section_first + .section_wrap ._widget_data[data-widget-type="button"] a.btn{
+.section_first + .section_wrap ._widget_data[data-widget-type="button"] .txt_l a.btn{
   border:none !important;
   background-color:#FBF4F7 !important;
   padding:4px 12px;
