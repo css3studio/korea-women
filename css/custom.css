@@ -80,6 +80,9 @@ header .nav.sub_mega_drop li:after{
 header .nav.sub_mega_drop li:last-child:after{
   content: none;
 }
+header .nav.sub_mega_drop li a.active span{
+  color:#B50F5F !important;
+}
 
 header .mega_dropdown_wrap{
   border-top:1px solid #DE649F;
