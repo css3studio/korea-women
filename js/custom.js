@@ -152,7 +152,12 @@ $(document).ready(function() {
 		event.preventDefault();
 	});
 
-
+	//검색결과 카테고리명 치환
+	$('.search_widget .categorize .site_nav > li a').each(function(){
+		if($(this).text() == "쇼핑"){
+			$(this).text("W스토리");
+		}
+	});
 
 	//2022 캠페인 carousel
 	$(".campaign-carousel .slider").lightGallery({
