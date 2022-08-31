@@ -728,7 +728,9 @@ writer: css3studio
 
   /*** W스토리 뷰 ***/
 
-
+  .shop-content .goods_wrapper .goods_form_wrap header{
+    font-size:16px;
+  }
   .shop-content .goods_wrapper .goods_form_wrap header .ns-icon{
     left:16px;
   }
