@@ -1746,6 +1746,8 @@ table.table-business02 tbody th{
 }
 .shop-content .review-box .shop_view_body{
   padding:0 16px;
+  color:#666;
+  font-size:16px;
 }
 .shop-content .review-box .shop_view_body p{
   color:#666;
