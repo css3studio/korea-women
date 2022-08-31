@@ -725,6 +725,36 @@ writer: css3studio
     font-size:13px;
   }
 
+
+  /*** W스토리 뷰 ***/
+
+
+  .shop-content .goods_wrapper .goods_form_wrap header .ns-icon{
+    left:16px;
+  }
+  .shop-content .goods_wrapper .buy_footer_fixed{
+    position:static !important;
+    bottom:0;
+    right:0;
+    border-top:none !important;
+    background:transparent;
+  }
+  .goods_form .m-btn-group button{
+    position: absolute;
+    right:20px;
+    bottom:-50px;
+  }
+
+  .shop-content .product_body{
+    padding-bottom:24px;
+    border-bottom: 1px solid #D8D8D8;
+    font-size:14px;
+    color:#666;
+    line-height:1.7;
+  }
+  
+
+
   
 }
 
