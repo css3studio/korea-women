@@ -1706,6 +1706,63 @@ table.table-business02 tbody th{
   color:#B50F5F !important;
 }
 
+/*** W스토리 뷰 ***/
+.shop-content .goods_wrapper .goods_thumbs_wrap{
+  display:none;
+}
+.shop-content .goods_wrapper .goods_form_wrap{
+  text-align:left;
+}
+.shop-content .goods_wrapper .goods_form_wrap header{
+  margin-bottom:0px;
+  font-size:24px;
+  font-weight:bold;
+  padding-top:24px;
+}
+.shop-content .goods_wrapper .goods_form_wrap header .shop_sub_depth{
+  display:none !important;
+}
+.shop-content .goods_wrapper .goods_form_wrap header .ns-icon{
+  position:absolute;
+  left:0;
+  top:0;
+}
+.shop-content .goods_wrapper .buy_footer_fixed{
+  position:absolute !important;
+  bottom:0;
+  right:0;
+  border-top:none !important;
+  background:transparent;
+}
+.shop-content .goods_wrapper .buy_footer_fixed ._buy_footer_wrap > .clearfix{
+  display:none
+}
+.shop-content .goods_wrapper .buy_footer_fixed ._buy_footer_wrap > a{
+  float:right
+}
+
+.shop-content .review-box{
+  border-bottom: 1px solid #D8D8D8;
+}
+.shop-content .review-box .shop_view_body{
+  padding:0 16px;
+}
+.shop-content .review-box .shop_view_body p{
+  color:#666;
+  font-size:16px;
+  margin-bottom:16px !important;
+}
+
+.btn_57633dd8a71f4{
+  display:flex;
+  flex-direction: row-reverse;
+  font-size:16px;
+  padding:12px 24px;
+}
+.btn_57633dd8a71f4 span{
+  margin:0 0 0 8px !important;;
+  font-weight:bold;
+}
 
 
 
