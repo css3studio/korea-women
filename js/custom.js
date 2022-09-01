@@ -190,6 +190,9 @@ function init_pc(){
 
 //모바일 버젼 초기화
 function init_mobile(){
+	//언어선택 메뉴 모바일 메뉴로 복제
+	var lang_menu = $('header .login_btn.button_text').clone();
+	$('#mobile_slide_menu').prepend(lang_menu);
 
 	//2022 캠페인 헤더 LNB 메뉴(mobile)
 	$(".btn-mobile-menu").on("click",function(event){
