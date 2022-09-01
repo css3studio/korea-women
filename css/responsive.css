@@ -223,7 +223,15 @@ writer: css3studio
     height:80px;
     -webkit-line-clamp:2;
   }
+  #post_card_b20220715cf0624760fb91 .card{ /*소식 > 발행물*/
+    width:268px;
+    margin:0 auto;
+  }
 
+  #post_card_b20220715cf0624760fb91 .card .card-summary{
+    position:absolute;
+    top:340px;
+  }
 
 
   /*딸들에게 희망을*/
