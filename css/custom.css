@@ -172,6 +172,16 @@ header .mega_dropdown > .title_menu:last-of-type .sub_menu li:after{
   
 }
 
+header .login_btn.button_text > div >.inline-blocked:first-of-type a span{
+  font-weight:bold
+}
+header .login_btn.button_text > div >.inline-blocked:first-of-type:after{
+  content: "|";
+  color:#D8D8D8;
+  font-size:8px;
+  margin:0 3px;
+}
+
 /* footer */
 footer{
   border-top:1px solid #E5E5E5 !important;
