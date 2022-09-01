@@ -760,6 +760,18 @@ writer: css3studio
   
 }
 
+@media screen and (max-width:1168px) {
+  header .inline-inside{
+    padding-left:16px !important;
+    padding-right:16px !important;
+  }
+  #w2022051236a317dca73dd .viewport-nav > li {
+    width: 100px;
+  }
+  
+  
+}
+
 /* 스마트폰 */
 @media screen and (max-width: 767px){
 
