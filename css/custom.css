@@ -617,10 +617,6 @@ footer .custom-text{
   width:268px !important;
 }
 
-.card .card_wrapper {
-  padding-top: calc(100% / 268 * 160); /* 16:9 적용 */
-  height:0 !important;
-}
 
 #newest_w202207155927692832b65 .post_row .dummy_col{
   display:none;
@@ -679,6 +675,11 @@ footer .custom-text{
   color:#999
 }
 
+.card .card_wrapper {
+  padding-top: calc(100% / 268 * 160); /* 16:9 적용 */
+  height:0 !important;
+}
+
 .card .card-body .title{
   font-weight:700;
   font-size:18px !important;;
@@ -727,7 +728,7 @@ footer .custom-text{
   height:1px;
   border-top:1px solid #999;
   position: absolute;
-  top:8px;
+  top:9px;
   left:0;
   z-index:-1
 }
@@ -740,9 +741,15 @@ footer .custom-text{
   padding-right:8px;
 }
 
+#post_card_b20220715cf0624760fb91 .card .card_wrapper { /* 소식 > 발행물 */
+  padding-top: calc(100% / 268 * 320); 
+  height:0 !important;
+}
 
-
-
+#post_card_b20220715cf0624760fb91 .card .card-summary{
+  position:absolute;
+  top:351px;
+}
 
 
 /*딸들에게 희망을*/
