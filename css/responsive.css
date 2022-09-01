@@ -773,8 +773,15 @@ writer: css3studio
     padding-left:16px !important;
     padding-right:16px !important;
   }
-  #w2022051236a317dca73dd .viewport-nav > li {
-    width: 100px;
+  header .nav.sub_mega_drop li{
+    width: 100px !important;;
+  }
+  header .nav.sub_mega_drop li:last-child{
+    margin-left:50px!important;
+    width:142px !important;
+  }
+  header .inline-section >.inline-col-group-right{
+    width:130px !important;;
   }
   
   
