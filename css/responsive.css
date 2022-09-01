@@ -40,6 +40,7 @@ writer: css3studio
   }
   .mobile_slide_menu_container .viewport-nav.mobile li.depth-01:last-child > ul{
     display:block !important;
+    height:auto !important;
   }
   
   
