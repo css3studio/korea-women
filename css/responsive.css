@@ -72,8 +72,26 @@ writer: css3studio
     background-size:contain;
   }  
 
-  
-  
+  .mobile_slide_menu .login_btn.button_text{
+    padding:16px;
+  }
+  .mobile_slide_menu .login_btn.button_text > div >.inline-blocked a span{
+    color:#999
+  }
+  .mobile_slide_menu .login_btn.button_text > div >.inline-blocked:first-of-type a span{
+    font-weight:bold;
+    color:#111;
+  }
+   .mobile_slide_menu .login_btn.button_text > div >.inline-blocked:first-of-type:after{
+    content: "|";
+    color:#D8D8D8;
+    font-size:12px;
+    margin:0 12px;
+     display:inline-block;
+     position:relative;
+     top:-2px;
+  }
+
   
 
   /* footer */
