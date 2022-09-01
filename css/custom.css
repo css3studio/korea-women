@@ -66,6 +66,9 @@ header #w20220714b5bd9746d6134 .search_btn i{
   font-weight:500
 }
 
+header .nav.sub_mega_drop .viewport-nav{
+
+}
 header .nav.sub_mega_drop li{
   position:relative;
 }
@@ -77,9 +80,40 @@ header .nav.sub_mega_drop li:after{
   top:50%;
   transform: translateY(-50%);
 }
+header .nav.sub_mega_drop li:nth-child(4):after{
+  content: none;
+}
+header .nav.sub_mega_drop li:last-child{
+  margin-left:110px!important;
+  width:162px !important;
+  display:flex !important;;
+  align-items: center;
+  height:100%;
+}
+header .nav.sub_mega_drop li:last-child a{
+  background: #DE649F;
+  height:48px !important;
+  line-height:46px;
+  color:#fff !important;
+  font-size:16px !important;
+  display:block !important;
+  width:100%;
+  border:1px solid #D03B83;
+  border-radius:24px;
+}
+header .nav.sub_mega_drop li:last-child a:after{
+  content:"\e93e";
+  font-family:xeicon;
+}
 header .nav.sub_mega_drop li:last-child:after{
   content: none;
 }
+header .nav.sub_mega_drop li:last-child a:hover{
+  background: #D03B83;
+}
+
+
+
 header .nav.sub_mega_drop li a.active span{
   color:#B50F5F !important;
 }
@@ -91,11 +125,51 @@ header .mega_dropdown_wrap{
 header ._mega_dropdown_container_w2022051236a317dca73dd{
   box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.05);
 }
+
 header .mega_dropdown .sub_menu a{
   font-size:14px !important;;
 }
 header .mega_dropdown .sub_menu a:hover{
   text-decoration: underline
+}
+
+
+header .mega_dropdown > .title_menu:last-of-type{
+  margin-left:110px;
+  text-align:left;
+  padding:120px 0 0 24px !important;;
+  width:172px !important;
+}
+header .mega_dropdown > .title_menu:last-of-type .sub_menu li{
+  text-align:left !important;
+  border-bottom:1px solid #E5E5E5;
+  padding-bottom:16px;
+  margin-bottom:16px;
+  display:flex;
+  justify-content: space-between;
+}
+header .mega_dropdown > .title_menu:last-of-type .sub_menu li:last-child{
+  border-bottom:none;
+  padding-bottom:0;
+  margin-bottom:0;
+}
+header .mega_dropdown > .title_menu:last-of-type .sub_menu li a{
+  color:#111 !important;
+  font-weight:bold;
+  display:inline !important;
+}
+header .mega_dropdown > .title_menu:last-of-type .sub_menu li a:hover{
+  text-decoration:none;
+  color:#D03B83 !important;;
+}
+header .mega_dropdown > .title_menu:last-of-type .sub_menu li:after{
+  content:"";
+  display:block;
+  width:20px;
+  height:20px;
+  background:url(https://cdn.imweb.me/upload/S202205122b1ec895efdd4/64230e5591dc0.png) no-repeat 0 0;
+  background-size:contain;
+  
 }
 
 /* footer */
