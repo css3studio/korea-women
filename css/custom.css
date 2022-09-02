@@ -6,6 +6,7 @@ writer: css3studio
 /*공톨*/
 html{
   font-size:16px;
+  scroll-behavior: smooth;
 }
 * {
   word-break:keep-all;
@@ -191,6 +192,29 @@ footer .custom-text{
 }
 .footer-group{
   position:relative;
+}
+.footer-group .btn-goto-top{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  top:-45px;
+  right:-72px;
+  width:40px;
+  height:40px;
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  border-radius: 8px;
+  box-shadow:0px 3px 8px rgba(0,0,0,0.1)
+}
+.footer-group .btn-goto-top span{
+  display:none
+}
+.footer-group .btn-goto-top:after{
+  content:"\e915";
+  font-family:xeicon;
+  color:#B50F5F;
+  font-size:16px;
 }
 .footer-group .footer-info{
   display:flex;
