@@ -1881,5 +1881,46 @@ table.table-business02 tbody th{
   font-weight:bold;
 }
 
+/*** 사이트 맵 ***/
+.v-menu-type2.menu-vertical .depth-01{
+  margin-bottom:24px;
+}
+.v-menu-type2.menu-vertical .depth-01 > a{
+  border-bottom:1px solid #D8D8D8;
+  font-size:24px !important;;
+  margin-bottom:24px;
+  padding-bottom:24px !important;
+}
+.v-menu-type2.menu-vertical .depth-01 > a span{
+  color:#D03B83;
+  font-weight:bold;
+}
+.v-menu-type2.menu-vertical .depth-01 > ul{
+  display:flex;
+  flex-wrap: wrap;
+}
+.v-menu-type2.menu-vertical .depth-01 > ul > li{
+  width:16.6667%
+}
+.v-menu-type2.menu-vertical .depth-01 > ul > li > a{
+  padding:0 !important;
+  font-weight:bold;
+  font-size:18px !important;
+  margin-bottom:16px;
+}
+.v-menu-type2.menu-vertical .depth-01 > ul > li > ul > li > a{
+  padding:0 !important;
+  font-size:16px !important;;
+  color:#999 !important;;
+}
+.v-menu-type2.menu-vertical .depth-01:last-child{
+  display:none;
+}
+
+li[data-code="m2022071487b863770974f"] ul{
+  display:none;
+}
+
+
 
 

@@ -863,6 +863,30 @@ writer: css3studio
   }
   
 
+  /*** 사이트 맵 ***/
+  .v-menu-type2.menu-vertical .depth-01{
+    margin-bottom:16px;
+  }
+  .v-menu-type2.menu-vertical .depth-01 > a{
+    font-size:18px !important;;
+    margin-bottom:16px;
+    padding-bottom:16px !important;
+  }
+
+  .v-menu-type2.menu-vertical .depth-01 > ul > li{
+    width:50%;
+    margin-bottom:16px;
+  }
+  .v-menu-type2.menu-vertical .depth-01 > ul > li > a{
+    font-size:14px !important;
+    margin-bottom:8px;
+  }
+  .v-menu-type2.menu-vertical .depth-01 > ul > li > ul > li > a{
+    font-size:12px !important;;
+  }
+
+
+
 
   
 }
