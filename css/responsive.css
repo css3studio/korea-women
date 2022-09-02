@@ -886,8 +886,10 @@ writer: css3studio
   }
 
 
-
-
+  /***오시는길***/
+  #s2022090218f3c36133b34 main > .inside{
+    padding:0
+  }
   
 }
 
