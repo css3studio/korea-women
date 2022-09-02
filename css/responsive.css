@@ -92,8 +92,27 @@ writer: css3studio
      top:-2px;
   }
 
-  
-
+  .mobile_slide_menu .navbar-nav li.depth-01 > a{
+    padding: 13px 50px 14px 16px;
+    font-weight:bold;
+  }
+  .mobile_slide_menu .navbar-nav li.depth-02 > a{
+    padding: 13px 50px 14px 32px;
+  }
+  .mobile_slide_menu .navbar-nav li.depth-02 > a span{
+    color:#666 !important;
+  }
+  .mobile_slide_menu .navbar-nav ul ul{
+    background-color:#FBF4F7 !important;
+    padding:8px 0;
+    margin-bottom:0 !important;
+  }
+  .mobile_slide_menu .navbar-nav li.depth-03 > a{
+    padding: 13px 50px 14px 48px;
+  }
+  .mobile_slide_menu .navbar-nav li.depth-03 > a span{
+    color:#666 !important;
+  }
   /* footer */
   .footer-group{
     padding-bottom:70px;
