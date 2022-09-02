@@ -129,6 +129,11 @@ writer: css3studio
   .footer-group{
     padding-bottom:70px;
   }
+  .footer-group .btn-goto-top{
+    top:-45px;
+    right:0px;
+  }
+  
   .footer-group .footer-info{
     flex-direction: column;
     align-items:center;
