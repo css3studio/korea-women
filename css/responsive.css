@@ -102,17 +102,29 @@ writer: css3studio
   .mobile_slide_menu .navbar-nav li.depth-02 > a span{
     color:#666 !important;
   }
+  .mobile_slide_menu .navbar-nav li.depth-02 > a.active span{
+    color:#B50F5F !important;
+    font-weight:bold;
+  }
   .mobile_slide_menu .navbar-nav ul ul{
     background-color:#FBF4F7 !important;
     padding:8px 0;
     margin-bottom:0 !important;
   }
   .mobile_slide_menu .navbar-nav li.depth-03 > a{
-    padding: 13px 50px 14px 48px;
+    padding: 12px 50px 12px 48px;
   }
   .mobile_slide_menu .navbar-nav li.depth-03 > a span{
     color:#666 !important;
   }
+  .mobile_slide_menu .navbar-nav li.depth-03 > a.active{
+    background-color: transparent !important;
+  }  
+  .mobile_slide_menu .navbar-nav li.depth-03 > a.active span{
+    color:#B50F5F !important;
+    font-weight:bold;
+    text-decoration: underline;
+  }  
   /* footer */
   .footer-group{
     padding-bottom:70px;
