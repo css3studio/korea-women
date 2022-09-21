@@ -25,6 +25,9 @@ dl{
 b, strong{
   font-weight:700 !important;
 }
+.fr-view img.fr-dii{
+  margin:0;
+}
 /*
 .btn-primary, .btn-default{
   font-size:16px;
