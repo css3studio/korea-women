@@ -1494,6 +1494,14 @@ a.arrow:after{
   top:0;
 }
 
+._gallery_wrap ._more_btn{
+  background-color:#D03B83 !important;
+  border-radius:25px !important;
+}
+._gallery_wrap ._more_btn:hover{
+  background-color:#000 !important;
+}
+
 #w20220829b731e089e23c7 .grid_02.type_grid.img_border.gallery2 .text_wrap .title{
   padding:0!important;
 }
