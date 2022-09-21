@@ -1932,6 +1932,34 @@ li[data-code="m2022071487b863770974f"] ul{
   display:none;
 }
 
+/*영문*/
+.menu-eng-main > li{
+  position:relative;
+}
+.menu-eng-main > li:after {
+  content: "|";
+  font-weight:100;
+  color: #D8D8D8;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.menu-eng-main > li:last-child:after {
+  content:none;
+}
+
+.menu-eng-main > li.active a{
+  color:#B50F5F;
+}
+
+.menu-eng-lang > li:first-child:after{
+  content: "|";
+  color:#D8D8D8;
+  font-size:12px;
+  margin:0 8px;
+}
 
 
 
