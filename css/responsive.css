@@ -658,11 +658,12 @@ writer: css3studio
   }
 
   .accordion01 dl dd{
-
+    margin:0;
   }
   .accordion01 dl.active dd{
     font-size:13px;
-    padding:8px;
+    padding-top:8px;
+    padding-bottom:8px;
   }
   
   /*성평등 기금*/

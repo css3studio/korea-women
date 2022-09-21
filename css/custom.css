@@ -1419,16 +1419,16 @@ a.arrow:after{
 .accordion01 dl dd{
   max-height:0;
   overflow:hidden;
-  transition:max-height 0.3s;
+  transition:max-height 0.3s, padding 0.2s;
+  font-size:14px;
+  color:#666;
+  max-width:776px;
+  margin-left:106px;
 }
 .accordion01 dl.active dd{
   max-height:1000px;
-  font-size:14px;
-  color:#666;
   padding-top:16px;
   padding-bottom:16px;
-  max-width:776px;
-  margin:0 auto;
 }
 
 /*성평등 기금*/
