@@ -1935,11 +1935,19 @@ li[data-code="m2022071487b863770974f"] ul{
 /*영문*/
 .header-eng-container{
   box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.05);
+  position:fixed;
+  width:100%;
+  left:0;
+  top:0;
+  background-color:#fff;
+  z-index:5;
 }
 .header-eng-container main > .inside > .doz_row:nth-of-type(2){
   display:none !important;;
 }
-
+.header-eng-container + div{
+  padding-top:96px;
+}
 
 .menu-eng-main > li{
   position:relative;
