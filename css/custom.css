@@ -263,7 +263,6 @@ footer .custom-text{
   display:flex;
   padding-top:32px;
   text-align:left;
-  flex-direction: row-reverse;
   justify-content: space-between;
   align-items:baseline;
 }
