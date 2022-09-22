@@ -957,6 +957,10 @@ writer: css3studio
   .footer-eng-container .foot-sociallink a i{
     font-size:20px !important;
   }
+  
+  .footer-eng-container .footer-group {
+    padding-bottom: 0px;
+  }
 }
 
 @media screen and (max-width:1168px) {
