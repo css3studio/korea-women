@@ -898,7 +898,10 @@ writer: css3studio
   .header-eng-container{
     box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.05);
   }
-
+  .header-eng-container + div{
+    padding-top:56px;
+  }
+  
   .menu-eng-main > li:after {
     content: none;
   }
@@ -944,8 +947,7 @@ writer: css3studio
   .header-eng.open-mobile-menu .btn-mobile-menu2 .xi-close{
     display:block
   }
-  
-  
+
 }
 
 @media screen and (max-width:1168px) {
