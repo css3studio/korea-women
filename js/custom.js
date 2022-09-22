@@ -194,6 +194,16 @@ function init_mobile(){
 	var lang_menu = $('header .login_btn.button_text').clone();
 	$('#mobile_slide_menu').prepend(lang_menu);
 
+	//영문 헤더 LNB 메뉴(mobile)
+	$(".btn-mobile-menu2").on("click",function(event){
+		if($(".header-eng").hasClass('open-mobile-menu')){
+			$(".header-eng").removeClass('open-mobile-menu');
+		}else{
+			$(".header-eng").addClass('open-mobile-menu');
+		}
+		event.preventDefault();
+	});
+
 	//2022 캠페인 헤더 LNB 메뉴(mobile)
 	$(".btn-mobile-menu").on("click",function(event){
 		if($(".campaign-header01").hasClass('open-mobile-menu')){
