@@ -947,7 +947,16 @@ writer: css3studio
   .header-eng.open-mobile-menu .btn-mobile-menu2 .xi-close{
     display:block
   }
-
+  
+  .footer-eng-container .footer-group .site-info {
+    padding-top: 48px;
+  }
+  .footer-eng-container .foot-sociallink{
+    top:56px;
+  }
+  .footer-eng-container .foot-sociallink a i{
+    font-size:20px !important;
+  }
 }
 
 @media screen and (max-width:1168px) {

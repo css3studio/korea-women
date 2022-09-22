@@ -1977,5 +1977,19 @@ li[data-code="m2022071487b863770974f"] ul{
   margin:0 8px;
 }
 
+.footer-eng-container{
+  border-top:1px solid #E5E5E5;
+  padding:24px 0 64px;
+}
 
-
+.footer-eng-container .foot-sociallink{
+  position:absolute;
+  right:0;
+  top:0px;
+}
+.footer-eng-container .foot-sociallink a{
+  border:none;
+  font-size:20px;
+  padding-left:10px;
+  padding-right:10px;
+}
