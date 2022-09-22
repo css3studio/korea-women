@@ -930,6 +930,7 @@ writer: css3studio
     left:0;
     bottom:0;
     right:0;
+    z-index: 5;
   }
   .header-eng .btn-mobile-menu2 .xi-bars{
     display:block
