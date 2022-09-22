@@ -1379,7 +1379,7 @@ a.arrow{
 a.arrow:after{
   content:"\e93e";
   font-family:xeicon;
-  margin-left:4px
+  margin-left:3px
 }
 
 .accordion01{
