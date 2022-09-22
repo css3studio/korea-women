@@ -288,6 +288,7 @@ footer .custom-text{
   margin:0 6px;
   font-weight:100;
 }
+/*
 .footer-group .site-info select{
   color:#666;
   border: 1px solid #D8D8D8;
@@ -295,39 +296,32 @@ footer .custom-text{
   background: #F5F5F5;
   padding:8px 16px;
   min-width:208px;
-  font-size:13px !important;;
-  -moz-appearance:none; /* Firefox */
-  -webkit-appearance:none; /* Safari and Chrome */
+  font-size:13px !important;
+  -moz-appearance:none;
+  -webkit-appearance:none; 
   appearance:none;
   background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2212%22%20height%3D%228%22%20viewBox%3D%220%200%2012%208%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cpath%20d%3D%22M0.666748%201.33301L6.00008%206.66634L11.3334%201.33301%22%20stroke%3D%22%23666666%22%20stroke-width%3D%221.5%22%20stroke-miterlimit%3D%2216%22%2F%3E%0A%3C%2Fsvg%3E");
   background-repeat: no-repeat;
   background-position: right 16px center;
-}
+}*/
 
-.footer-group .link-info a{
-  display:block;
+.footer-group .link-info{
   position:absolute;
   right:0;
-  bottom:0;
-  display:flex;
-  align-items:center;
+  top:100px;
 }
-.footer-group .link-info a:after{
-  content:"\e907";
-  width:24px;
-  height:24px;
-  margin-left:24px;
-  border: 1px solid #D8D8D8;
-  border-radius:12px;
-  font-family:xeicon;
-  transform:rotate(-45deg)
-}
+
 .footer-group .link-info a:hover:after{
   border: 1px solid #D03B83;
   color:#D03B83
 }
-.footer-group .link-info a span{
+.footer-group .link-info a.future-forum{
   display:block;
+  margin-bottom:16px;
+}
+.footer-group .link-info a.future-forum span{
+  display:block;
+  margin:0 auto;
   height:40px;
   width:132px;
   background:url(https://cdn.imweb.me/upload/S202205122b1ec895efdd4/ea1b1085f4676.png) no-repeat 0 0;
@@ -336,6 +330,16 @@ footer .custom-text{
   overflow:hidden;
 }
 
+.footer-group .link-info a.online-apply span{
+  display:block;
+  margin:0 auto;
+  height:40px;
+  width:180px;
+  background:url(https://cdn.imweb.me/upload/S202205122b1ec895efdd4/4abde162e1de5.png) no-repeat 0 0;
+  background-size:contain;
+  text-indent:-9999px;
+  overflow:hidden;
+}
 
 
 
