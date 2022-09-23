@@ -1031,7 +1031,7 @@ footer .custom-text{
 }
 #s202207154f925629263e6 .list-style.row_01 .title .board-block{
   position:absolute;
-  top:0;
+  top:2px;
 }
 #s202207154f925629263e6 .list-style.row_01 .title .board-block:before{
   content:"";
