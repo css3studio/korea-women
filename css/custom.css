@@ -173,7 +173,7 @@ header .mega_dropdown > .title_menu:last-of-type .sub_menu li:after{
   height:20px;
   background:url(https://cdn.imweb.me/upload/S202205122b1ec895efdd4/64230e5591dc0.png) no-repeat 0 0;
   background-size:contain;
-  
+
 }
 
 header .login_btn.button_text > div >.inline-blocked:first-of-type a span{
@@ -298,7 +298,7 @@ footer .custom-text{
   min-width:208px;
   font-size:13px !important;
   -moz-appearance:none;
-  -webkit-appearance:none; 
+  -webkit-appearance:none;
   appearance:none;
   background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2212%22%20height%3D%228%22%20viewBox%3D%220%200%2012%208%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cpath%20d%3D%22M0.666748%201.33301L6.00008%206.66634L11.3334%201.33301%22%20stroke%3D%22%23666666%22%20stroke-width%3D%221.5%22%20stroke-miterlimit%3D%2216%22%2F%3E%0A%3C%2Fsvg%3E");
   background-repeat: no-repeat;
@@ -857,7 +857,7 @@ footer .custom-text{
 }
 
 #post_card_b20220715cf0624760fb91 .card .card_wrapper { /* 소식 > 발행물 */
-  padding-top: calc(100% / 268 * 320); 
+  padding-top: calc(100% / 268 * 320);
   height:0 !important;
 }
 
@@ -1095,7 +1095,7 @@ footer .custom-text{
 }
 #s202207154f925629263e6 .blog-head{
   position:absolute;
-  bottom:88px;
+  bottom:93px;
 }
 #s202207154f925629263e6 .blog-head:before{
   content:"";
