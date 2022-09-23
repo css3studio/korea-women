@@ -13,9 +13,11 @@ writer: css3studio
   font-size:16px;
   padding:16px 32px;
   border-radius: 32px;
+  background-color:#000 !important;
 }
 ._body_menu_m20220530f386862f06d2b .btn-primary:hover{
-  border-color:#00a290 !important;
+  border-color:#583DFF !important;
+  background-color:#583DFF !important;
 }
 ._body_menu_m20220530f386862f06d2b .btn-primary span{
   float:right;
