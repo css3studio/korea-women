@@ -260,6 +260,25 @@ footer .custom-text{
 .foot-sociallink a i{
   color:#666 !important;
 }
+.foot-sociallink a:hover{
+  opacity:1 !important;
+}
+.foot-sociallink a._Ug8EMK23S0:hover i{
+  background: -webkit-linear-gradient(#ad0deb, #fd2d2b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.foot-sociallink a._0d84524mLS:hover i{
+  color:#3A5CA9 !important;
+}
+.foot-sociallink a._46SW6h7t0o:hover i{
+  color:#FF0000 !important;
+}
+.foot-sociallink a._WzB5T2tKfa:hover i{
+  color:#3BAB36 !important;
+}
+
+
 .footer-group .site-info{
   display:flex;
   padding-top:32px;
