@@ -255,6 +255,7 @@ footer .custom-text{
   position:absolute;
   right:0;
   top:15px;
+  z-index:1;
 }
 .foot-sociallink a i{
   color:#666 !important;
