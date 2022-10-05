@@ -1959,6 +1959,21 @@ li[data-code="m2022071487b863770974f"] ul{
   display:none;
 }
 
+/* ci button */
+#w2022100485899178dc3c9 .button_wrap{
+  display:flex;
+  margin:0 -12px;
+}
+#w2022100485899178dc3c9 .button_wrap > .inline-blocked{
+  margin:0 12px;
+  width:50%;
+}
+#w2022100485899178dc3c9 .button_wrap a.btn{
+  font-size:16px;
+  width:100%;
+  margin:0 !important;
+}
+
 /*영문*/
 .header-eng-container{
   box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.05);

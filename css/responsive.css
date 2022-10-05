@@ -896,7 +896,18 @@ writer: css3studio
     padding:0
   }
   
-  
+  /* ci button */
+  #w2022100485899178dc3c9 .button_wrap{
+    display:block;
+    margin:0;
+  }
+  #w2022100485899178dc3c9 .button_wrap > .inline-blocked{
+    margin:0;
+    width:100%;
+  }
+  #w2022100485899178dc3c9 .button_wrap a.btn{
+    margin:0 0 8px !important;
+  }
 
   /*영문*/
   .header-eng-container{
