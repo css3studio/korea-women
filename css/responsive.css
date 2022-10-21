@@ -127,7 +127,7 @@ writer: css3studio
   }  
   /* footer */
   .footer-group{
-    padding-bottom:70px;
+    padding-top:136px;
   }
   .footer-group .btn-goto-top{
     top:-45px;
@@ -136,9 +136,11 @@ writer: css3studio
   
   .footer-group .footer-info{
     flex-direction: column;
-    align-items:center;
+    align-items:baseline;
     border-bottom:none;
     padding-bottom:0;
+    border-top:1px solid #ddd;
+    padding-top:24px;
   }
   .footer-group .footer-info .logo{
     margin-right:0px;
@@ -157,15 +159,15 @@ writer: css3studio
   .foot-sociallink{
     position:absolute !important;
     right:0;
-    top:initial;
-    bottom:0;
+    top:80px;
     display:block;
     width:100%;
+    padding:0 16px;
   }
   .foot-sociallink > .btn-group{
     display:flex !important;
     flex-direction: row-reverse;
-    justify-content: center;
+    justify-content: left;
   }
   .foot-sociallink a i{
     font-size:30px !important;
@@ -173,11 +175,10 @@ writer: css3studio
   .footer-group .site-info{
     padding-top:32px;
     text-align:left;
-    padding-bottom:160px;
     display:block
   }
   .footer-group .site-info .text-info{
-   text-align: center;
+   text-align: left;
   }
 
   .footer-group .site-info .text-info dd em:not(:nth-of-type(4)){
@@ -196,18 +197,14 @@ writer: css3studio
     margin-bottom:24px;
   }
   .footer-group .link-info{
-    top:initial;
-    bottom:80px;
+    top:0;
     left:0;
-    padding-bottom:24px;
+    display:flex;
+    justify-content: space-between;
+    padding-bottom:12px;
     border-bottom: 1px solid #E5E5E5;
   }
-  .footer-group .link-info a{
-    width:100%;
-    right:0;
-    bottom:100px;
-    justify-content: center;
-  }
+
 
   /*** main ***/
   .slider-main{
