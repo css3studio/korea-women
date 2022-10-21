@@ -1162,6 +1162,10 @@ footer .custom-text{
   position:absolute;
   top:90px;
 }
+#stb_subscribe > form .stb_form_result{
+  position:absolute;
+  top:120px;
+}
 #stb_subscribe > form .stb_form_policy label{
   display:flex;
   align-items: center;
