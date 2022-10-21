@@ -1156,15 +1156,15 @@ footer .custom-text{
 #stb_subscribe > form{
   display:flex;
   justify-content: space-between;
-  align-items: center;
+
 }
 #stb_subscribe > form .stb_form_policy{
   position:absolute;
-  top:90px;
+  top:100px;
 }
 #stb_subscribe > form .stb_form_result{
   position:absolute;
-  top:120px;
+  top:130px;
 }
 #stb_subscribe > form .stb_form_policy label{
   display:flex;
@@ -1188,6 +1188,7 @@ footer .custom-text{
   width:26%
 }
 #stb_subscribe > form > fieldset:nth-of-type(3){
+  padding-top:32.4px;
   width:22%
 }
 #stb_subscribe > form > fieldset label{

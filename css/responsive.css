@@ -483,6 +483,7 @@ writer: css3studio
     width:100%
   }
   #stb_subscribe > form > fieldset:nth-of-type(3){
+    padding-top:0;
     width:100%
   }
 
