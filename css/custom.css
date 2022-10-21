@@ -1160,7 +1160,7 @@ footer .custom-text{
 }
 #stb_subscribe > form .stb_form_policy{
   position:absolute;
-  bottom:-30px;
+  top:90px;
 }
 #stb_subscribe > form .stb_form_policy label{
   display:flex;
