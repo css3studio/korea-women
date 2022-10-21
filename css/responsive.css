@@ -702,6 +702,9 @@ writer: css3studio
   .slide_02.owl-carousel.gallery2 .owl-next::before{
     right:20px !important;
   }
+  #w202208293324c4a7f4f55 .btn_a35bf512248c2{
+    background-color:#DE649F !important;
+  }
 
   /*** 일반게시판 ***/
   .board._list_wrap .board-head .tools{
