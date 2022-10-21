@@ -465,6 +465,28 @@ writer: css3studio
   #s202207151ce11d103cbab .headings-main p{
     max-width:283px;
   }
+  
+
+  #stb_subscribe > form{
+    display:block;
+  }
+  #stb_subscribe > form .stb_form_policy{
+    position:static;
+  }
+
+  #stb_subscribe > form > fieldset:nth-of-type(1){
+    width:100%
+  }
+  #stb_subscribe > form > fieldset:nth-of-type(2){
+    width:100%
+  }
+  #stb_subscribe > form > fieldset:nth-of-type(3){
+    width:100%
+  }
+
+  
+  
+  /*
   #s202207151ce11d103cbab .form-widget .deadline-opacity{
     display:block;
   }
@@ -498,7 +520,7 @@ writer: css3studio
   #s202207151ce11d103cbab .form-widget .form-group.privacy{
     position:static;
   }
-  
+  */
   /*partners*/
   #s2022071594ccff9a3310b{
     padding:48px 0

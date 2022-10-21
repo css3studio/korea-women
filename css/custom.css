@@ -1146,6 +1146,67 @@ footer .custom-text{
 #s202207151ce11d103cbab .headings-main p{
   max-width:273px;
 }
+
+#stb_subscribe {
+  width: 100%;
+  background-color: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+}
+#stb_subscribe > form{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#stb_subscribe > form .stb_form_policy{
+  position:absolute;
+  bottom:-30px;
+}
+#stb_subscribe > form .stb_form_policy label{
+  display:flex;
+  align-items: center;
+}
+#stb_subscribe > form .stb_form_policy label input{
+  margin-right:8px;
+  border:1px solid #999;
+  border-radius:4px;
+}
+#stb_subscribe > form .stb_form_policy label input:checked{
+  border:1px solid #D03B83;
+  background-color:#D03B83;
+}
+
+
+#stb_subscribe > form > fieldset:nth-of-type(1){
+  width:26%
+}
+#stb_subscribe > form > fieldset:nth-of-type(2){
+  width:48%
+}
+#stb_subscribe > form > fieldset:nth-of-type(3){
+  width:22%
+}
+#stb_subscribe > form > fieldset label{
+  font-weight:bold;
+  color;#666;
+}
+#stb_subscribe > form > fieldset input{
+  border:1px solid #DD8E32 !important;
+  border-radius:8px;
+}
+#stb_subscribe > form > fieldset input:focus{
+  border:1px solid #000 !important;
+  outline: none !important;
+}
+#stb_subscribe > form > fieldset:nth-of-type(3) button{
+  width:100%;
+  border-radius:8px;
+  font-weight:bold;
+}
+#stb_subscribe > form > fieldset:nth-of-type(3) button:hover{
+  background-color:#000 !important;
+}
+/*
 #s202207151ce11d103cbab .form-widget .deadline-opacity{
   display:flex;
   justify-content:space-around;
@@ -1209,6 +1270,7 @@ footer .custom-text{
 #s202207151ce11d103cbab .checkbox-styled:not(ie8) input:checked ~ span::before{
   background-color:#DD8E32;
 }
+*/
 
 /*partners*/
 #s2022071594ccff9a3310b{
