@@ -1525,6 +1525,26 @@ a.arrow:after{
   padding-bottom:16px;
 }
 
+#w202210044e7ee56a30372 .button_wrap a{
+  display:flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  font-size:16px;
+  background-color:#DE649F !important;;
+  border-color:#D03B83 !important;
+  color:#fff !important;
+  padding:12px 24px;
+  font-weight:bold;
+}
+#w202210044e7ee56a30372 .button_wrap a:hover{
+  background-color:#000 !important;
+}
+#w202210044e7ee56a30372 .button_wrap a span{
+  margin:0 0 0 16px !important;
+  font-size:12px;
+}
+
+
 /*성평등 기금*/
 .slide_02.owl-carousel.gallery2 .owl-item .item_container{
   border:none !important;
