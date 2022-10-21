@@ -1530,14 +1530,20 @@ a.arrow:after{
   flex-direction: row-reverse;
   align-items: center;
   font-size:16px;
-  background-color:#DE649F !important;;
-  border-color:#D03B83 !important;
+  background-color:#DE649F !important;
+  border:1px solid #D03B83 !important;
   color:#fff !important;
   padding:12px 24px;
   font-weight:bold;
 }
+#w202210044e7ee56a30372 .button_wrap a.btn_19e52e7066f60{
+  background-color:#fff !important;
+  color:#DE649F !important;
+}
 #w202210044e7ee56a30372 .button_wrap a:hover{
   background-color:#000 !important;
+  border-color:#000 !important;
+  color:#fff !important;
 }
 #w202210044e7ee56a30372 .button_wrap a span{
   margin:0 0 0 16px !important;
