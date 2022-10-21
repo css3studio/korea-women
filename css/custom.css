@@ -1028,7 +1028,7 @@ footer .custom-text{
   position:relative;
 }
 #s202207154f925629263e6 .list-style.row_01 .title > a{
-  font-weight:700;
+  font-weight:500;
   margin-bottom:0;
 }
 #s202207154f925629263e6 .list-style.row_01 .title > a > span{
@@ -1109,6 +1109,8 @@ footer .custom-text{
   overflow:hidden;
   text-overflow:ellipsis;
   line-height:1.55555;
+  font-weight:500;
+    
 }
 #s202207154f925629263e6 .blog-body .text-block > strong > a:hover:last-of-type{
   text-decoration: underline;
