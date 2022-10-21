@@ -1558,11 +1558,13 @@ a.arrow:after{
 }
 .slide_02.owl-carousel.gallery2 .owl-item .img_wrap{
   margin-bottom:24px;
+  background-size:100% auto !important;
+  background-position: center top !important;
 }
 .slide_02.owl-carousel.gallery2 .owl-item .text_wrap .title{
   padding:24px 0 0 0 !important;
   position:relative;
-  font-weight:700;
+  font-weight:500;
 }
 .slide_02.owl-carousel.gallery2 .owl-item .text_wrap .title span{
   position:absolute;
