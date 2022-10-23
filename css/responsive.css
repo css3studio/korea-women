@@ -190,10 +190,10 @@ writer: css3studio
     color:#fff;
   }
   .footer-group .site-info .text-info dd br:nth-of-type(1){
-    display:none;
+    display:block;
   }
   .footer-group .site-info .text-info dd strong:nth-of-type(3){
-   margin-left:10px
+   margin-left:0px
   }
   .footer-group .site-info select{
     width:100%;
