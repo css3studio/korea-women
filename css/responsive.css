@@ -243,6 +243,7 @@ writer: css3studio
     transform: translateX(0);    
     transform: translateY(-50%);
     display:flex;
+    padding-top:10px;
   }
   .slider-main .controls2 > a{
     margin-left:8px;
