@@ -111,6 +111,9 @@ writer: css3studio
     padding:8px 0;
     margin-bottom:0 !important;
   }
+  .mobile_slide_menu .navbar-nav .collapse{
+    visibility: visible;
+  }
   .mobile_slide_menu .navbar-nav li.depth-03 > a{
     padding: 12px 50px 12px 48px;
   }
